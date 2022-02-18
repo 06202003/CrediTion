@@ -11,7 +11,7 @@ a {
 }
 
 p {
-  text-indent: 4em;
+  /* text-indent: 4em; */
   text-align: justify;
 }
 .container1 {
@@ -40,7 +40,7 @@ p {
 }
 .con2 {
   min-height: 600px;
-  background-color: cyan;
+  background-color: #3a75c3;
   color: black;
 }
 .con3 {
@@ -48,6 +48,7 @@ p {
 }
 .padd2 {
   padding-top: 5rem;
+  
 }
 
 @media only screen and (max-width: 768px) {
@@ -68,3 +69,10 @@ p {
 footer {
   text-align: left;
 }
+
+.warnaheader{
+  background-color: #0e2a47;
+}
+
+
+
