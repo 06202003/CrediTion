@@ -33,7 +33,7 @@ anime({
     value: 0,
   },
   translateX: {
-    value: -35,
+    value: -40,
     duration: 2800,
   },
   rotate: {
@@ -51,8 +51,8 @@ anime({
 anime({
   targets: ['#logoanimate'],
   translateX: 0,
-  keyframes: [{ rotate: 540 }, { rotate: 0 }, { rotate: 540 }, { rotate: 540 }],
-  duration: 6000,
+  keyframes: [{ rotate: 540 }, { rotate: 0 }, { rotate: 540 }, { rotate: 0 }],
+  duration: 8000,
   easing: 'easeOutElastic(1, .8)',
   loop: true,
   rotate: 540,
