@@ -75,29 +75,54 @@ anime({
   d: [{ value: [wave1, wave2] }, { value: wave3 }, { value: wave4 }, { value: wave1 }],
 });
 
-var xValues = ['Italy', 'France', 'Spain', 'USA', 'Argentina'];
-var yValues = [55, 49, 44, 24, 15];
-var barColors = ['red', 'green', 'blue', 'orange', 'brown'];
+// Grafik
 
-new Chart('myChart', {
+new Chart(document.getElementById('myChart'), {
   type: 'horizontalBar',
   data: {
-    labels: xValues,
+    labels: ['Brazil', 'United Kingdom', 'Spain', 'United States', 'France', 'Turkey', 'Australia', 'Canada', 'Ireland', 'South Korea', 'Italy', 'Japan', 'Sweden', 'Germany', 'Netherlands'],
     datasets: [
       {
-        backgroundColor: barColors,
-        data: yValues,
+        label: 'Percentage of Population',
+        backgroundColor: '#03fcbe',
+        data: [85, 70, 68, 67, 67, 63, 62, 61, 61, 59, 52, 51, 47, 38, 31],
       },
     ],
   },
   options: {
-    legend: { display: false },
-    title: {
-      display: true,
-      text: 'World Wine Production 2018',
+    legend: {
+      labels: {
+        fontColor: 'black',
+        fontSize: 18,
+      },
     },
+    // title: {
+    //   display: true,
+    //   fontColor: 'black',
+    //   fontSize: 18,
+    //   text: 'Countries with Highest Concern About Fake News On Internet',
+    // },
     scales: {
-      xAxes: [{ ticks: { min: 10, max: 60 } }],
+      yAxes: [
+        {
+          ticks: {
+            fontColor: 'black',
+            fontSize: 16,
+            stepSize: 3,
+            beginAtZero: true,
+          },
+        },
+      ],
+      xAxes: [
+        {
+          ticks: {
+            fontColor: 'black',
+            fontSize: 14,
+            stepSize: 10,
+            beginAtZero: true,
+          },
+        },
+      ],
     },
   },
 });
