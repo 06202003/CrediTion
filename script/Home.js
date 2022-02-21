@@ -70,7 +70,34 @@ const wave1 =
 anime({
   targets: '.wave-top > path',
   easing: 'linear',
-  duration: 7500,
+  duration: 17500,
   loop: true,
   d: [{ value: [wave1, wave2] }, { value: wave3 }, { value: wave4 }, { value: wave1 }],
+});
+
+var xValues = ['Italy', 'France', 'Spain', 'USA', 'Argentina'];
+var yValues = [55, 49, 44, 24, 15];
+var barColors = ['red', 'green', 'blue', 'orange', 'brown'];
+
+new Chart('myChart', {
+  type: 'horizontalBar',
+  data: {
+    labels: xValues,
+    datasets: [
+      {
+        backgroundColor: barColors,
+        data: yValues,
+      },
+    ],
+  },
+  options: {
+    legend: { display: false },
+    title: {
+      display: true,
+      text: 'World Wine Production 2018',
+    },
+    scales: {
+      xAxes: [{ ticks: { min: 10, max: 60 } }],
+    },
+  },
 });
