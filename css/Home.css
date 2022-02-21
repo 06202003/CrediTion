@@ -22,7 +22,7 @@ p {
 }
 .container1 {
   background-image: url('../src/world\ map.png');
-  height: 800px;
+  height: 700px;
   /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
@@ -45,13 +45,13 @@ p {
 }
 
 .con2 {
-  background-color: #3d437e;
+  height: 550px;
+  background-color: rgb(14, 117, 158);
   color: black;
 }
-.padd2 {
-  padding-top: 5rem;
+.con3 {
+  height: 700px;
 }
-
 .gambar1 {
   float: right;
 }
@@ -93,8 +93,8 @@ footer {
 }
 
 #buttonsatu1:hover {
-  background-color: #6bc5b7;
-  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  background-color: #1864b1;
+  box-shadow: 0px 15px 20px rgba(38, 0, 255, 0.5);
   color: #fff;
   transform: translateY(-7px);
 }
