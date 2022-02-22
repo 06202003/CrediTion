@@ -93,7 +93,7 @@ new Chart(document.getElementById('myChart'), {
     legend: {
       labels: {
         fontColor: 'black',
-        fontSize: 18,
+        fontSize: 16,
       },
     },
     // title: {
@@ -108,7 +108,7 @@ new Chart(document.getElementById('myChart'), {
           ticks: {
             fontColor: 'black',
             fontSize: 16,
-            stepSize: 3,
+            stepSize: 1,
             beginAtZero: true,
           },
         },
@@ -117,7 +117,7 @@ new Chart(document.getElementById('myChart'), {
         {
           ticks: {
             fontColor: 'black',
-            fontSize: 14,
+            fontSize: 16,
             stepSize: 10,
             beginAtZero: true,
           },
