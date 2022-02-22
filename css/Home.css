@@ -46,11 +46,14 @@ p {
 
 .con2 {
   height: 550px;
-  background-color: rgb(14, 117, 158);
+  background-color: #5885af;
   color: black;
 }
 .con3 {
-  height: 700px;
+  height: 500px;
+}
+.con4 {
+  background-color: #0e759e;
 }
 .gambar1 {
   float: right;
