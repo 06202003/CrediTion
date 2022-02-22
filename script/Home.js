@@ -1,7 +1,7 @@
 var nav = document.querySelector('nav');
 
 window.addEventListener('scroll', function () {
-  if (window.pageYOffset > 10) {
+  if (window.pageYOffset > 125) {
     nav.classList.add('warnaheader', 'shadow');
     document.getElementById('hilang').style.visibility = 'hidden';
   } else {
@@ -80,12 +80,13 @@ anime({
 new Chart(document.getElementById('myChart'), {
   type: 'horizontalBar',
   data: {
-    labels: ['Brazil', 'United Kingdom', 'Spain', 'United States', 'France', 'Turkey', 'Australia', 'Canada', 'Ireland', 'South Korea', 'Italy', 'Japan', 'Sweden', 'Germany', 'Netherlands'],
+    labels: ['Brazil', 'United Kingdom', 'Spain', 'United States', 'France', 'Turkey', 'Australia', 'Canada', 'Ireland', 'South Korea'],
     datasets: [
       {
         label: 'Percentage of Population',
-        backgroundColor: '#03fcbe',
-        data: [85, 70, 68, 67, 67, 63, 62, 61, 61, 59, 52, 51, 47, 38, 31],
+        backgroundColor: '#ebab3d',
+        hoverBackgroundColor: 'white',
+        data: [85, 70, 68, 67, 67, 63, 62, 61, 61, 59],
       },
     ],
   },
@@ -93,7 +94,6 @@ new Chart(document.getElementById('myChart'), {
     legend: {
       labels: {
         fontColor: 'black',
-        fontSize: 16,
       },
     },
     // title: {
@@ -107,9 +107,12 @@ new Chart(document.getElementById('myChart'), {
         {
           ticks: {
             fontColor: 'black',
-            fontSize: 16,
+
             stepSize: 1,
             beginAtZero: true,
+            categoryPercentage: 1,
+            barPercentage: 80,
+            barThickness: 95,
           },
         },
       ],
@@ -117,12 +120,94 @@ new Chart(document.getElementById('myChart'), {
         {
           ticks: {
             fontColor: 'black',
-            fontSize: 16,
+
             stepSize: 10,
             beginAtZero: true,
+            categoryPercentage: 1,
+            barPercentage: 1,
           },
         },
       ],
     },
   },
+});
+
+// Data Array 2
+var data = {
+  labels: ['Social Politics', 'Discrimination', 'Health', 'Food & Drink', 'Financial Fraud', 'Science & Technology', 'Obituary', 'Joke', 'Natural Disaster', 'Traffic Regulations'],
+  datasets: [
+    {
+      label: 'Percentage of Population',
+      backgroundColor: '#ebab3d',
+      hoverBackgroundColor: 'white',
+      borderWidth: 1,
+      data: [91.8, 88.6, 41.2, 32.6, 24.5, 23.7, 18.8, 17.6, 10.3, 4],
+      yAxisID: 'dataY',
+    },
+  ],
+};
+
+// Membalikan data array
+data.datasets[0].data.map((currentValue, index, array) => {
+  array[index] = currentValue * -1;
+});
+
+var options = {
+  tooltips: {
+    callbacks: {
+      //hitung dari kanan ke kiri biar tidak minus
+      label: function (tooltipItem, data) {
+        var label = data.datasets[tooltipItem.datasetIndex].label || '';
+
+        if (label) {
+          label += ': ';
+        }
+        label += tooltipItem.xLabel * -1;
+        return label;
+      },
+    },
+  },
+
+  scales: {
+    yAxes: [
+      {
+        id: 'dataY',
+        categoryPercentage: 0.5,
+        barPercentage: 1.3,
+        position: 'right',
+        ticks: {
+          beginAtZero: true,
+          fontColor: 'black',
+        },
+      },
+    ],
+
+    xAxes: [
+      {
+        id: 'bar-x-axis1',
+        stacked: false,
+        ticks: {
+          callback: function (value, index, values) {
+            return value * -1; // invert the sign for tick labelling.
+          },
+          beginAtZero: true,
+          fontColor: 'black',
+
+          stepSize: 10,
+        },
+      },
+    ],
+  },
+  legend: {
+    labels: {
+      fontColor: 'black',
+    },
+  },
+};
+
+var grph = document.getElementById('myChart2').getContext('2d');
+var myBarChart = new Chart(grph, {
+  type: 'horizontalBar',
+  data: data,
+  options: options,
 });
