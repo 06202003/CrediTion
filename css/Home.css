@@ -53,10 +53,20 @@ p {
   height: 500px;
 }
 .con4 {
-  background-color: #0e759e;
+  background-color: #0a6fa8;
 }
+
+.chart-container {
+  position: relative;
+  height: 20vh;
+  width: 50vw;
+}
+
 .gambar1 {
   float: right;
+}
+.grafikbawah {
+  font-size: 3em;
 }
 footer {
   text-align: left;
@@ -132,5 +142,30 @@ footer {
     width: 18rem;
     margin: 0 auto;
     font-size: 0.8em;
+  }
+  .con2 {
+    height: 700px;
+  }
+  .con3 {
+    height: 800px;
+    margin: 0.4rem;
+  }
+  .imageinf2 {
+    width: 300px;
+    height: 400px;
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+  }
+  .chart-container {
+    position: relative;
+    height: 15vh;
+    width: 110vw;
+    padding-right: 4rem;
+  }
+  .grafikbawah {
+    font-size: 2em;
+  }
+  .bawah {
+    margin-top: 1rem;
   }
 }
