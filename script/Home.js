@@ -27,35 +27,23 @@ $('.counter-count').each(function () {
     );
 });
 
-anime({
-  targets: '#animate',
-  translateY: {
-    value: 0,
-  },
-  translateX: {
-    value: -40,
-    duration: 2800,
-  },
-  rotate: {
-    value: 345,
-    duration: 2800,
-  },
-  scale: {
-    value: 1,
-    duration: 2600,
-    delay: 1800,
-  },
-  delay: 150,
-});
+// anime({
+//   targets: '#animate',
+  
+//   rotate: {
+//     value: 345,
+//     duration: 2800,
+//   },
+//   delay: 500,
+//   // loop: true,
+// });
 
 anime({
   targets: ['#logoanimate'],
-  translateX: 0,
   keyframes: [{ rotate: 540 }, { rotate: 0 }, { rotate: 540 }, { rotate: 0 }],
   duration: 8000,
   easing: 'easeOutElastic(1, .8)',
   loop: true,
-  rotate: 540,
 });
 
 const wave1 =
@@ -93,7 +81,8 @@ new Chart(document.getElementById('myChart'), {
   options: {
     legend: {
       labels: {
-        fontColor: 'black',
+        fontColor: 'white',
+        fontSize: 25,
       },
     },
     // title: {
@@ -106,8 +95,8 @@ new Chart(document.getElementById('myChart'), {
       yAxes: [
         {
           ticks: {
-            fontColor: 'black',
-
+            fontColor: 'white',
+            fontSize: 15,
             stepSize: 1,
             beginAtZero: true,
             categoryPercentage: 1,
@@ -119,8 +108,8 @@ new Chart(document.getElementById('myChart'), {
       xAxes: [
         {
           ticks: {
-            fontColor: 'black',
-
+            fontColor: 'white',
+            fontSize: 15,
             stepSize: 10,
             beginAtZero: true,
             categoryPercentage: 1,
@@ -177,7 +166,8 @@ var options = {
         position: 'right',
         ticks: {
           beginAtZero: true,
-          fontColor: 'black',
+          fontColor: 'white',
+          fontSize: 15,
         },
       },
     ],
@@ -191,8 +181,8 @@ var options = {
             return value * -1; // invert the sign for tick labelling.
           },
           beginAtZero: true,
-          fontColor: 'black',
-
+          fontColor: 'white',
+          fontSize: 15,
           stepSize: 10,
         },
       },
@@ -200,7 +190,8 @@ var options = {
   },
   legend: {
     labels: {
-      fontColor: 'black',
+      fontColor: 'white',
+      fontSize: 25,
     },
   },
 };

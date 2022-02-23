@@ -52,9 +52,9 @@ p {
 .con3 {
   height: 600px;
 }
-.con4 {
+/* .con4 {
   background-color: #0a6fa8;
-}
+} */
 
 .chart-container {
   position: relative;
@@ -74,7 +74,6 @@ footer {
 
 .warnaheader {
   background-color: #1b3e6c;
-  opacity: 93%;
 }
 
 .wave-top {
