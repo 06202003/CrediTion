@@ -29,17 +29,6 @@ $('.counter-count').each(function () {
     );
 });
 
-// anime({
-//   targets: '#animate',
-  
-//   rotate: {
-//     value: 345,
-//     duration: 2800,
-//   },
-//   delay: 500,
-//   // loop: true,
-// });
-
 anime({
   targets: ['#logoanimate'],
   keyframes: [{ rotate: 540 }, { rotate: 0 }, { rotate: 540 }, { rotate: 0 }],
@@ -84,13 +73,13 @@ new Chart(document.getElementById('myChart'), {
     legend: {
       labels: {
         fontColor: 'white',
-        fontSize: 25,
+        fontSize: 12,
       },
     },
     // title: {
     //   display: true,
     //   fontColor: 'black',
-    //   fontSize: 18,
+    //   fontSize: 12,
     //   text: 'Countries with Highest Concern About Fake News On Internet',
     // },
     scales: {
@@ -98,7 +87,7 @@ new Chart(document.getElementById('myChart'), {
         {
           ticks: {
             fontColor: 'white',
-            fontSize: 15,
+            fontSize: 12,
             stepSize: 1,
             beginAtZero: true,
             categoryPercentage: 1,
@@ -111,7 +100,7 @@ new Chart(document.getElementById('myChart'), {
         {
           ticks: {
             fontColor: 'white',
-            fontSize: 15,
+            fontSize: 12,
             stepSize: 10,
             beginAtZero: true,
             categoryPercentage: 1,
@@ -128,7 +117,7 @@ var data = {
   labels: ['Social Politics', 'Discrimination', 'Health', 'Food & Drink', 'Financial Fraud', 'Science & Technology', 'Obituary', 'Joke', 'Natural Disaster', 'Traffic Regulations'],
   datasets: [
     {
-      label: 'Percentage of Population',
+      label: 'Percentage of Receiver',
       backgroundColor: '#ebab3d',
       hoverBackgroundColor: 'white',
       borderWidth: 1,
@@ -169,7 +158,7 @@ var options = {
         ticks: {
           beginAtZero: true,
           fontColor: 'white',
-          fontSize: 15,
+          fontSize: 12,
         },
       },
     ],
@@ -184,7 +173,7 @@ var options = {
           },
           beginAtZero: true,
           fontColor: 'white',
-          fontSize: 15,
+          fontSize: 12,
           stepSize: 10,
         },
       },
@@ -193,7 +182,7 @@ var options = {
   legend: {
     labels: {
       fontColor: 'white',
-      fontSize: 25,
+      fontSize: 12,
     },
   },
 };
@@ -204,4 +193,3 @@ var myBarChart = new Chart(grph, {
   data: data,
   options: options,
 });
-
