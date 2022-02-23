@@ -102,6 +102,10 @@ footer {
   transform: translateY(-1px);
 }
 
+.beritapalsu {
+  font-size: 4em;
+}
+
 @media only screen and (max-width: 768px) {
   p {
     text-align: left;
@@ -144,7 +148,9 @@ footer {
     margin-left: 2rem;
     padding-bottom: 2rem;
   }
-
+  .beritapalsu {
+    font-size: 3rem;
+  }
   .grafikbawah {
     font-size: 2em;
   }
