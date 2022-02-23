@@ -27,17 +27,6 @@ $('.counter-count').each(function () {
     );
 });
 
-// anime({
-//   targets: '#animate',
-
-//   rotate: {
-//     value: 345,
-//     duration: 2800,
-//   },
-//   delay: 500,
-//   // loop: true,
-// });
-
 anime({
   targets: ['#logoanimate'],
   keyframes: [{ rotate: 540 }, { rotate: 0 }, { rotate: 540 }, { rotate: 0 }],
