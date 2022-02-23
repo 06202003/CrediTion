@@ -3,10 +3,12 @@ var nav = document.querySelector('nav');
 window.addEventListener('scroll', function () {
   if (window.pageYOffset > 125) {
     nav.classList.add('warnaheader', 'shadow');
-    document.getElementById('hilang').style.visibility = 'hidden';
+    document.getElementById('hilang').style.visibility = 'visible';
+    document.getElementById('').style.visibility = 'visible';
   } else {
     nav.classList.remove('warnaheader', 'shadow');
-    document.getElementById('hilang').style.visibility = 'visible';
+    document.getElementById('hilang').style.visibility = ' hidden';
+    document.getElementById('').style.visibility = 'hidden';
   }
 });
 
@@ -26,6 +28,17 @@ $('.counter-count').each(function () {
       }
     );
 });
+
+// anime({
+//   targets: '#animate',
+  
+//   rotate: {
+//     value: 345,
+//     duration: 2800,
+//   },
+//   delay: 500,
+//   // loop: true,
+// });
 
 anime({
   targets: ['#logoanimate'],
@@ -71,13 +84,13 @@ new Chart(document.getElementById('myChart'), {
     legend: {
       labels: {
         fontColor: 'white',
-        fontSize: 12,
+        fontSize: 25,
       },
     },
     // title: {
     //   display: true,
     //   fontColor: 'black',
-    //   fontSize: 12,
+    //   fontSize: 18,
     //   text: 'Countries with Highest Concern About Fake News On Internet',
     // },
     scales: {
@@ -85,7 +98,7 @@ new Chart(document.getElementById('myChart'), {
         {
           ticks: {
             fontColor: 'white',
-            fontSize: 12,
+            fontSize: 15,
             stepSize: 1,
             beginAtZero: true,
             categoryPercentage: 1,
@@ -98,7 +111,7 @@ new Chart(document.getElementById('myChart'), {
         {
           ticks: {
             fontColor: 'white',
-            fontSize: 12,
+            fontSize: 15,
             stepSize: 10,
             beginAtZero: true,
             categoryPercentage: 1,
@@ -115,7 +128,7 @@ var data = {
   labels: ['Social Politics', 'Discrimination', 'Health', 'Food & Drink', 'Financial Fraud', 'Science & Technology', 'Obituary', 'Joke', 'Natural Disaster', 'Traffic Regulations'],
   datasets: [
     {
-      label: 'Percentage of Receiver',
+      label: 'Percentage of Population',
       backgroundColor: '#ebab3d',
       hoverBackgroundColor: 'white',
       borderWidth: 1,
@@ -156,7 +169,7 @@ var options = {
         ticks: {
           beginAtZero: true,
           fontColor: 'white',
-          fontSize: 12,
+          fontSize: 15,
         },
       },
     ],
@@ -171,7 +184,7 @@ var options = {
           },
           beginAtZero: true,
           fontColor: 'white',
-          fontSize: 12,
+          fontSize: 15,
           stepSize: 10,
         },
       },
@@ -180,7 +193,7 @@ var options = {
   legend: {
     labels: {
       fontColor: 'white',
-      fontSize: 12,
+      fontSize: 25,
     },
   },
 };
@@ -191,3 +204,4 @@ var myBarChart = new Chart(grph, {
   data: data,
   options: options,
 });
+
