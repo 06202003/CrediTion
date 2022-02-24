@@ -1,14 +1,13 @@
 var nav = document.querySelector('nav');
-
 window.addEventListener('scroll', function () {
   if (window.pageYOffset > 125) {
     nav.classList.add('warnaheader', 'shadow');
     document.getElementById('hilang').style.visibility = 'visible';
-    document.getElementById('').style.visibility = 'visible';
+    document.getElementById('hilang1').style.visibility = 'visible';
   } else {
     nav.classList.remove('warnaheader', 'shadow');
     document.getElementById('hilang').style.visibility = ' hidden';
-    document.getElementById('').style.visibility = 'hidden';
+    document.getElementById('hilang1').style.visibility = 'hidden';
   }
 });
 
@@ -192,4 +191,13 @@ var myBarChart = new Chart(grph, {
   type: 'horizontalBar',
   data: data,
   options: options,
+});
+
+// Pop up about
+
+var myModal = document.getElementById('myModal');
+var myInput = document.getElementById('myInput');
+
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus();
 });
