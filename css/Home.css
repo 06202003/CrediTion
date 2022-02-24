@@ -339,6 +339,14 @@ footer {
   opacity: 1;
 }
 
+#hilang {
+  visibility: hidden;
+}
+
+#hilang1 {
+  visibility: hidden;
+}
+
 body {
   overflow-x: hidden;
   background-attachment: fixed;
