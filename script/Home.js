@@ -97,6 +97,7 @@ new Chart(document.getElementById('myChart'), {
       ],
       xAxes: [
         {
+          stacked: false,
           ticks: {
             fontColor: 'white',
             fontSize: 12,
@@ -104,6 +105,7 @@ new Chart(document.getElementById('myChart'), {
             beginAtZero: true,
             categoryPercentage: 1,
             barPercentage: 1,
+            suggestedMax: 100,
           },
         },
       ],
