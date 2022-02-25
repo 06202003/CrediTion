@@ -321,6 +321,9 @@ footer {
 .ket_atas {
   font-size: 1.2em;
 }
+.about {
+  width: 30rem;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   p {
@@ -514,6 +517,7 @@ footer {
   .gambar3 {
     width: 25rem;
     height: 30rem;
+    margin-left: 5rem;
   }
 
   .mobilecard1 {
@@ -523,10 +527,10 @@ footer {
   }
 
   .judul1 {
-    font-size: 2em;
+    font-size: 2.5em;
   }
   .judul2 {
-    font-size: 1em;
+    font-size: 1.5em;
     padding-bottom: 1rem;
     padding-top: 1rem;
   }
@@ -535,7 +539,7 @@ footer {
   }
 
   .grafikbawah {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   .bawah {
     margin-top: 1rem;
@@ -544,17 +548,64 @@ footer {
     font-size: 1rem;
   }
   .judulgrafik {
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
   .judulatas {
-    font-size: 2em;
+    font-size: 2.2em;
     font-family: 'Courier Prime', monospace;
   }
   .ket_atas {
     font-size: 1.2em;
   }
   .ket_1 {
-    font-size: 0.8em;
+    font-size: 1.2em;
+  }
+  .about-box {
+    position: relative;
+    background-image: url('../src/david.jpg');
+    background-size: cover;
+    border-radius: 1rem;
+    height: 22rem;
+    overflow: hidden;
+  }
+  .about-box1 {
+    position: relative;
+    background-image: url('../src/arthur.png');
+    background-size: cover;
+    border-radius: 1rem;
+    height: 22rem;
+    overflow: hidden;
+  }
+  .about-box::after {
+    content: 'Maranatha Christian University';
+    position: absolute;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Comfortaa', cursive;
+    top: 17rem;
+    left: 100px;
+    transform: translate(-50%, 0);
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .about-box1::after {
+    content: 'Maranatha Christian University';
+    position: absolute;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Comfortaa', cursive;
+    top: 17rem;
+    left: 100px;
+    transform: translate(-50%, 0);
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .foot_contact {
+    font-size: 0.85rem;
   }
 }
 
