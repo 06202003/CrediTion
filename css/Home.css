@@ -6,7 +6,6 @@
 a {
   text-decoration: none;
 }
-
 .container1 {
   background-image: url('../src/world\ map.png'); /* Pakai BGJar.com license free */
   height: 700px;
@@ -16,12 +15,10 @@ a {
   background-size: cover;
   color: white;
 }
-
 .gambar1 {
   width: 600px;
   height: 400px;
 }
-
 .lain {
   color: black;
 }
@@ -37,28 +34,29 @@ a {
   border-radius: 10px;
   border: 0;
 }
-
 .con2 {
   background-color: #0a6fa8;
   color: white;
 }
-
 .judul1 {
   font-size: 3.5em;
+  font-family: 'Comfortaa', cursive;
 }
-
 .gambar2 {
   width: 550px;
   height: 600px;
 }
-
 .gambar3 {
   width: 450px;
   height: 550px;
 }
-
 .judulgrafik {
   font-size: 3em;
+  font-family: 'Comfortaa', cursive;
+}
+.judul2 {
+  font-size: 2em;
+  font-family: 'Comfortaa', cursive;
 }
 .grafikbawah {
   font-size: 3em;
@@ -66,26 +64,22 @@ a {
 footer {
   text-align: left;
 }
-
 .warnaheader {
   background-color: #1b3e6c;
 }
-
 .wave-top {
   top: 0;
   left: 0;
   width: 100%;
 }
-
 .wave-top1 {
   top: 0;
   left: 0;
   width: 100%;
 }
-
 #buttonsatu1 {
-  padding: 1.3em 3em;
-  font-size: 17px;
+  padding: 1em 3em;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
   font-weight: 500;
@@ -98,83 +92,45 @@ footer {
   cursor: pointer;
   outline: none;
 }
-
 #buttonsatu1:hover {
-  background-color: #1864b1;
-  box-shadow: 0px 15px 20px rgba(38, 0, 255, 0.5);
+  background-color: #6ebce4;
+  box-shadow: 0px 15px 20px #6ebde448;
   color: #fff;
   transform: translateY(-7px);
 }
-
 #buttonsatu1:active {
   transform: translateY(-1px);
 }
-
+#buttonsatu2 {
+  padding: 1em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #6ebce4;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+#buttonsatu2:hover {
+  background-color: #6ebce4;
+  box-shadow: 0px 15px 20px #6ebde448;
+  color: #fff;
+  transform: translateY(-7px);
+}
+#buttonsatu2:active {
+  transform: translateY(-1px);
+}
 .card-title {
   color: black;
 }
 .card-text {
   color: black;
 }
-
-@media only screen and (max-width: 768px) {
-  p {
-    text-align: left;
-  }
-  .pertama {
-    padding-top: 4rem;
-  }
-  .container1 {
-    height: 1400px;
-  }
-  .khusus1 {
-    text-align: center;
-  }
-  .khusus2 {
-    text-align: center;
-    padding-bottom: 1rem;
-  }
-  .gambar1 {
-    width: 21rem;
-    height: 13rem;
-  }
-
-  .gambar2 {
-    width: 20rem;
-    height: 20rem;
-  }
-  .gambar3 {
-    width: 20rem;
-    height: 25rem;
-  }
-
-  .mobilecard1 {
-    width: 18rem;
-    margin: 0 auto;
-    font-size: 0.8em;
-  }
-
-  .judul1 {
-    font-size: 2.5em;
-  }
-  .con3 {
-    padding-top: 1rem;
-  }
-
-  .grafikbawah {
-    font-size: 1.3rem;
-  }
-  .bawah {
-    margin-top: 1rem;
-  }
-  .asli {
-    font-size: 1rem;
-  }
-  .judulgrafik {
-    font-size: 2em;
-  }
-}
-
 #tombol {
   padding: 0.8em 1.8em;
   border: 2px solid black;
@@ -288,6 +244,7 @@ footer {
   top: 15px;
   opacity: 1;
 }
+
 /* arthur */
 .about-box1 {
   position: relative;
@@ -355,6 +312,250 @@ footer {
 
 #hilang1 {
   visibility: hidden;
+}
+
+.judulatas {
+  font-size: 2.7em;
+  font-family: 'Courier Prime', monospace;
+}
+.ket_atas {
+  font-size: 1.2em;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  p {
+    text-align: left;
+    font-size: 0.8em;
+  }
+  .pertama {
+    padding-top: 3rem;
+  }
+  .container1 {
+    height: 1200px;
+  }
+  .khusus1 {
+    text-align: center;
+  }
+  .khusus2 {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .gambar1 {
+    width: 21rem;
+    height: 13rem;
+  }
+
+  .gambar2 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .gambar3 {
+    width: 20rem;
+    height: 25rem;
+  }
+
+  .mobilecard1 {
+    width: 18rem;
+    margin: 0 auto;
+    font-size: 0.8em;
+  }
+
+  .judul1 {
+    font-size: 2em;
+  }
+  .judul2 {
+    font-size: 1em;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .con3 {
+    padding-top: 1rem;
+  }
+
+  .grafikbawah {
+    font-size: 1.3rem;
+  }
+  .bawah {
+    margin-top: 1rem;
+  }
+  .asli {
+    font-size: 1rem;
+  }
+  .judulgrafik {
+    font-size: 1.5em;
+  }
+  .judulatas {
+    font-size: 1.5em;
+    font-family: 'Courier Prime', monospace;
+  }
+  .ket_atas {
+    font-size: 1em;
+  }
+  .ket_1 {
+    font-size: 0.8em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  p {
+    text-align: left;
+    font-size: 0.8em;
+  }
+  .pertama {
+    padding-top: 3rem;
+  }
+  .container1 {
+    height: 900px;
+  }
+  .khusus1 {
+    text-align: center;
+  }
+  .khusus2 {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .gambar1 {
+    width: 21rem;
+    height: 13rem;
+  }
+
+  .gambar2 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .gambar3 {
+    width: 20rem;
+    height: 25rem;
+  }
+
+  .mobilecard1 {
+    width: 30rem;
+    margin: 0 auto;
+    font-size: 0.8em;
+  }
+
+  .judul1 {
+    font-size: 2em;
+  }
+  .judul2 {
+    font-size: 1em;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .con3 {
+    padding-top: 1rem;
+  }
+
+  .grafikbawah {
+    font-size: 1.3rem;
+  }
+  .bawah {
+    margin-top: 1rem;
+  }
+  .asli {
+    font-size: 1rem;
+  }
+  .judulgrafik {
+    font-size: 1.5em;
+  }
+  .judulatas {
+    font-size: 1.5em;
+    font-family: 'Courier Prime', monospace;
+  }
+  .ket_atas {
+    font-size: 1em;
+  }
+  .ket_1 {
+    font-size: 0.8em;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  p {
+    text-align: left;
+    font-size: 0.8em;
+  }
+  .pertama {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+  }
+  .container1 {
+    height: 700px;
+  }
+  .khusus1 {
+    text-align: center;
+    padding-left: 1.8rem;
+    font-size: 0.8rem;
+  }
+  .khusus2 {
+    text-align: center;
+    width: 4rem;
+    transform: rotate(350deg);
+  }
+  .khusus3 {
+    width: 4rem;
+  }
+  .bgcard2 {
+    height: 6rem;
+    padding-top: 0.2rem;
+  }
+  .khusus5 {
+    width: 5rem;
+    height: 4rem;
+  }
+
+  .gambar1 {
+    width: 30rem;
+    height: 18rem;
+  }
+
+  .gambar2 {
+    width: 25rem;
+    height: 25rem;
+  }
+  .gambar3 {
+    width: 25rem;
+    height: 30rem;
+  }
+
+  .mobilecard1 {
+    width: 20rem;
+    margin: 0 auto;
+    font-size: 0.7em;
+  }
+
+  .judul1 {
+    font-size: 2em;
+  }
+  .judul2 {
+    font-size: 1em;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .con3 {
+    padding-top: 1rem;
+  }
+
+  .grafikbawah {
+    font-size: 1.3rem;
+  }
+  .bawah {
+    margin-top: 1rem;
+  }
+  .asli {
+    font-size: 1rem;
+  }
+  .judulgrafik {
+    font-size: 1.5em;
+  }
+  .judulatas {
+    font-size: 2em;
+    font-family: 'Courier Prime', monospace;
+  }
+  .ket_atas {
+    font-size: 1.2em;
+  }
+  .ket_1 {
+    font-size: 0.8em;
+  }
 }
 
 body {
