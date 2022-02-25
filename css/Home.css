@@ -15,6 +15,9 @@ a {
   background-size: cover;
   color: white;
 }
+.pertama {
+  margin-bottom: 7rem;
+}
 .gambar1 {
   width: 600px;
   height: 400px;
@@ -37,6 +40,12 @@ a {
 .con2 {
   background-color: #0a6fa8;
   color: white;
+}
+.khusus4 {
+  width: 5rem;
+}
+.delapanenam {
+  margin-left: 1rem;
 }
 .judul1 {
   font-size: 3.5em;
@@ -479,22 +488,26 @@ footer {
   .pertama {
     padding-top: 3rem;
     padding-bottom: 5rem;
+    margin-bottom: 2rem;
   }
   .container1 {
     height: 700px;
   }
   .khusus1 {
     text-align: center;
-    padding-left: 1.8rem;
+    padding-left: 1.9rem;
     font-size: 0.8rem;
   }
   .khusus2 {
     text-align: center;
     width: 4rem;
-    transform: rotate(350deg);
   }
   .khusus3 {
-    width: 4rem;
+    width: 3rem;
+  }
+  .khusus4 {
+    width: 5rem;
+    transform: rotate(350deg);
   }
   .bgcard2 {
     height: 6rem;
@@ -519,9 +532,14 @@ footer {
     height: 30rem;
     margin-left: 5rem;
   }
-
+  .bgcard1 {
+    background-color: #264480;
+    border-radius: 10px;
+    border: 0;
+    height: 5.5rem;
+  }
   .mobilecard1 {
-    width: 20rem;
+    width: 23rem;
     margin: 0 auto;
     font-size: 0.7em;
   }
