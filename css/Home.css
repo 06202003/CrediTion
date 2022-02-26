@@ -59,6 +59,9 @@ a {
   width: 450px;
   height: 550px;
 }
+.pad {
+  padding-left: 100px;
+}
 .judulgrafik {
   font-size: 3em;
   font-family: 'Comfortaa', cursive;
@@ -329,9 +332,13 @@ footer {
 }
 .ket_atas {
   font-size: 1.2em;
+  line-height: 1.5;
 }
 .about {
   width: 30rem;
+}
+.ket_1 {
+  line-height: 1.5;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -362,7 +369,7 @@ footer {
     height: 20rem;
   }
   .gambar3 {
-    width: 20rem;
+    width: 15rem;
     height: 25rem;
   }
 
@@ -404,7 +411,11 @@ footer {
     font-size: 1em;
   }
   .ket_1 {
+    line-height: 1.5;
     font-size: 0.8em;
+  }
+  .pad {
+    padding-left: 0rem;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -477,7 +488,14 @@ footer {
     font-size: 1em;
   }
   .ket_1 {
+    line-height: 1.5;
     font-size: 0.8em;
+  }
+  .pad {
+    padding-left: 1rem;
+  }
+  .padd_ipad {
+    padding-bottom: 1.5rem;
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
@@ -502,16 +520,9 @@ footer {
     text-align: center;
     width: 4rem;
   }
-  .khusus3 {
-    width: 3rem;
-  }
   .khusus4 {
     width: 5rem;
     transform: rotate(350deg);
-  }
-  .bgcard2 {
-    height: 6rem;
-    padding-top: 0.2rem;
   }
   .khusus5 {
     width: 5rem;
@@ -576,6 +587,7 @@ footer {
     font-size: 1.2em;
   }
   .ket_1 {
+    line-height: 1.5;
     font-size: 1.2em;
   }
   .about-box {
@@ -625,6 +637,9 @@ footer {
   .foot_contact {
     font-size: 0.85rem;
   }
+  .pad {
+    padding-left: 1rem;
+  }
 }
 
 .card1 {
@@ -636,13 +651,13 @@ footer {
   border: #2e5e96 0.2rem solid;
   transition: all 0.4s ease-in;
   box-shadow: 0.4rem 0.4rem 0.6rem #05ced440;
- }
- 
- .card1:hover {
+}
+
+.card1:hover {
   transform: translateY(-0.2rem);
   border: blue 0.2em solid;
   border-radius: 2.5rem 0 2.5rem 0;
- }
+}
 
 body {
   overflow-x: hidden;
