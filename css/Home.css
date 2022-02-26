@@ -627,6 +627,23 @@ footer {
   }
 }
 
+.card1 {
+  /* width: 12.5rem; */
+  /* height: 17rem; */
+  color: white;
+  background-color: #0e2a47;
+  border-radius: 1rem;
+  border: #2e5e96 0.2rem solid;
+  transition: all 0.4s ease-in;
+  box-shadow: 0.4rem 0.4rem 0.6rem #05ced440;
+ }
+ 
+ .card1:hover {
+  transform: translateY(-0.2rem);
+  border: blue 0.2em solid;
+  border-radius: 2.5rem 0 2.5rem 0;
+ }
+
 body {
   overflow-x: hidden;
   background-attachment: fixed;
