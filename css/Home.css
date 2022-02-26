@@ -341,6 +341,10 @@ footer {
 .ket_1 {
   line-height: 1.5;
 }
+.contact_image {
+  height: 35rem;
+  width: 30rem;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   p {
@@ -418,6 +422,11 @@ footer {
   }
   .pad {
     padding-left: 0rem;
+  }
+  .contact_image {
+    height: 25rem;
+    width: 15rem;
+    margin-left: 5rem;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -499,6 +508,10 @@ footer {
   }
   .padd_ipad {
     padding-bottom: 1.5rem;
+  }
+  .contact_image {
+    height: 30rem;
+    width: 20rem;
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
