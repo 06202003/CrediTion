@@ -17,6 +17,7 @@ a {
 }
 .pertama {
   margin-bottom: 7rem;
+  margin-top: 5rem;
 }
 .gambar1 {
   width: 600px;
@@ -348,6 +349,7 @@ footer {
   }
   .pertama {
     padding-top: 3rem;
+    margin-top: 0;
   }
   .container1 {
     height: 1200px;
@@ -425,6 +427,7 @@ footer {
   }
   .pertama {
     padding-top: 3rem;
+    margin-top: 0;
   }
   .container1 {
     height: 900px;
@@ -505,8 +508,9 @@ footer {
   }
   .pertama {
     padding-top: 3rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
     margin-bottom: 2rem;
+    margin-top: 1rem;
   }
   .container1 {
     height: 700px;
@@ -580,7 +584,7 @@ footer {
     font-size: 2.5em;
   }
   .judulatas {
-    font-size: 2.2em;
+    font-size: 2em;
     font-family: 'Courier Prime', monospace;
   }
   .ket_atas {
