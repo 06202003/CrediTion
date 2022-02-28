@@ -326,6 +326,12 @@ footer {
 #hilang1 {
   visibility: hidden;
 }
+#hilang3 {
+  visibility: hidden;
+}
+.kontak_tinggi {
+  height: 700px;
+}
 
 .judulatas {
   font-size: 2.7em;
@@ -441,6 +447,9 @@ footer {
     transform: translate(-50%, 0);
     opacity: 0;
     transition: 0.5s;
+  }
+  .kontak_tinggi {
+    height: 1000px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
