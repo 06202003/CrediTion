@@ -1,13 +1,15 @@
 var nav = document.querySelector('nav');
 window.addEventListener('scroll', function () {
-  if (window.pageYOffset > 125) {
+  if (window.pageYOffset > 50) {
     nav.classList.add('warnaheader', 'shadow');
     document.getElementById('hilang').style.visibility = 'visible';
     document.getElementById('hilang1').style.visibility = 'visible';
+    document.getElementById('hilang3').style.visibility = 'visible';
   } else {
     nav.classList.remove('warnaheader', 'shadow');
     document.getElementById('hilang').style.visibility = ' hidden';
     document.getElementById('hilang1').style.visibility = 'hidden';
+    document.getElementById('hilang3').style.visibility = 'hidden';
   }
 });
 
