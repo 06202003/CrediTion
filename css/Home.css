@@ -346,7 +346,7 @@ footer {
   width: 30rem;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+@media only screen and (min-width: 319px) and (max-width: 767px) {
   p {
     text-align: left;
     font-size: 0.8em;
@@ -375,7 +375,7 @@ footer {
     height: 20rem;
   }
   .gambar3 {
-    width: 15rem;
+    width: 20rem;
     height: 25rem;
   }
 
@@ -427,6 +427,20 @@ footer {
     height: 25rem;
     width: 15rem;
     margin-left: 5rem;
+  }
+  .about-box1::before {
+    content: 'Informatics 2nd Semester Student';
+    position: absolute;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: 'Comfortaa', cursive;
+    top: 6rem;
+    left: 100px;
+    transform: translate(-50%, 0);
+    opacity: 0;
+    transition: 0.5s;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
