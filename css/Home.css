@@ -38,7 +38,7 @@ a {
   color: black;
 }
 .bgcard1 {
-  background-color: #264480;
+  background-color: #5e7ade;
   border-radius: 10px;
   border: 0;
 }
@@ -359,8 +359,8 @@ footer {
 }
 .ket_2 {
   line-height: 2;
-  padding-left: 12rem;
-  padding-right: 12rem;
+  padding-left: 9em;
+  padding-right: 9em;
 }
 .contact_image {
   height: 35rem;
@@ -448,9 +448,9 @@ footer {
     padding-left: 0rem;
   }
   .contact_image {
-    height: 25rem;
+    height: 20rem;
     width: 15rem;
-    margin-left: 5rem;
+    margin-left: 4rem;
   }
   .about-box1::before {
     content: 'Informatics 2nd Semester Student';
@@ -475,6 +475,11 @@ footer {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .ket_2 {
+    line-height: 2;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
   p {
     text-align: left;
     font-size: 0.8em;
@@ -558,11 +563,17 @@ footer {
     padding-bottom: 1.5rem;
   }
   .contact_image {
-    height: 30rem;
+    margin-top: 3rem;
+    height: 25rem;
     width: 20rem;
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .contact_image {
+    margin-top: 2rem;
+    height: 30rem;
+    width: 25rem;
+  }
   p {
     text-align: left;
     font-size: 0.8em;
@@ -713,8 +724,8 @@ footer {
 .card1 {
   /* width: 12.5rem; */
   /* height: 17rem; */
-  color: white;
-  background-color: rgb(80, 98, 151);
+  color: black;
+  background-color: #6ebce4;
   border-radius: 1rem;
   border: rgba(159, 178, 243, 0.8) 0.2rem solid;
   transition: all 0.4s ease-in;
@@ -723,7 +734,7 @@ footer {
 
 .card1:hover {
   transform: translateY(-0.2rem);
-  border: rgba(0, 0, 255, 0.568) 0.2em solid;
+  border: #fe9e88 0.2em solid;
   border-radius: 2.5rem 0 2.5rem 0;
 }
 
