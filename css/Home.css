@@ -6,6 +6,10 @@
 a {
   text-decoration: none;
 }
+
+.khusus1 {
+  font-family: 'Ubuntu', sans-serif;
+}
 .container1 {
   background-image: url('../src/world\ map.png'); /* Pakai BGJar.com license free */
   height: 700px;
@@ -51,7 +55,7 @@ a {
 .judul1 {
   color: #9fb2f3;
   font-size: 4em;
-  font-family: 'Secular One', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 .gambar2 {
   width: 550px;
@@ -66,7 +70,7 @@ a {
 }
 .judulgrafik {
   font-size: 3.5em;
-  font-family: 'Secular One', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 .judul2 {
   font-size: 2em;
@@ -337,12 +341,14 @@ footer {
 .judulatas {
   /* color: #9fb2f3; */
   font-size: 3em;
-  font-family: 'Secular One', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
 }
 .ket_atas {
   font-size: 1.2em;
   line-height: 1.5;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
 }
 .about {
   width: 30rem;
@@ -375,6 +381,7 @@ footer {
   }
   .khusus1 {
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
   }
   .khusus2 {
     text-align: center;
@@ -402,6 +409,7 @@ footer {
 
   .judul1 {
     font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
   }
   .judul2 {
     font-size: 1em;
@@ -423,6 +431,7 @@ footer {
   }
   .judulgrafik {
     font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
   }
   .judulatas {
     font-size: 1.5em;
@@ -460,6 +469,10 @@ footer {
   .kontak_tinggi {
     height: 1000px;
   }
+  .ket_2 {
+    line-height: 2;
+    padding: 0;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   p {
@@ -475,6 +488,7 @@ footer {
   }
   .khusus1 {
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
   }
   .khusus2 {
     text-align: center;
@@ -502,6 +516,7 @@ footer {
 
   .judul1 {
     font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
   }
   .judul2 {
     font-size: 1em;
@@ -523,6 +538,7 @@ footer {
   }
   .judulgrafik {
     font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
   }
   .judulatas {
     font-size: 1.5em;
@@ -564,6 +580,7 @@ footer {
     text-align: center;
     padding-left: 1.9rem;
     font-size: 0.8rem;
+    font-family: 'Ubuntu', sans-serif;
   }
   .khusus2 {
     text-align: center;
@@ -606,6 +623,7 @@ footer {
 
   .judul1 {
     font-size: 2.5em;
+    font-family: 'Ubuntu', sans-serif;
   }
   .judul2 {
     font-size: 1.5em;
@@ -627,6 +645,7 @@ footer {
   }
   .judulgrafik {
     font-size: 2.5em;
+    font-family: 'Ubuntu', sans-serif;
   }
   .judulatas {
     font-size: 2em;
@@ -716,5 +735,4 @@ body {
   background-size: cover;
   color: white;
   background-image: url(../src/Screenshot_2.png); /* Pakai BGJar.com license free */
-  
 }
