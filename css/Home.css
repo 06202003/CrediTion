@@ -747,3 +747,107 @@ body {
   color: white;
   background-image: url(../src/Screenshot_2.png); /* Pakai BGJar.com license free */
 }
+
+/*Meet Our Team*/
+#Team{
+  padding: 65px 0;
+  background:  var(--lightcolor);
+}
+#Team .card-team{
+  padding: 5px;
+}
+#Team .card-team .bottom-content{
+  padding-top:  17px;
+}
+#Team .card-team .about{
+  margin-top: 3.5rem;
+}
+#Team .card-team p{
+  color: var(--gray);
+  font-size: 17px;
+}
+#Team .card-team .line-team{
+  display: block;
+  border-bottom: 5px solid var(--darkblue);
+  width: 20%;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  margin-top: .5rem;
+}
+
+#Team .col-lg-6{
+  background: #fff;
+  margin: 50px 25px;
+  padding: 20px;
+  color: #8e8b8b;  
+  position: relative;
+  border-radius: 12px;
+  width: 520px;
+}
+/* .col-lg-6 */
+.team_img{
+  position: absolute;
+  top: -80px;
+  left: 20%;
+  transform: translateX(-50%);
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.avatar1{
+  margin-bottom: 50px;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  /* border: 1px solid crimson; */
+  transition: all 0.3s ease;
+}
+
+
+/* From cssbuttons.io by @meermubashar */
+.buttonformore {
+  position: absolute;
+  top: -100px;
+  right: -330%;
+  transform: translateX(0);
+
+  width: 140px;
+  height: 45px;
+  font-size: 23px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  position: relative;
+  transition: all 0.5s;
+  z-index: 1;
+ }
+ 
+ .buttonformore::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background-color: black;
+  z-index: -1;
+  transition: all 0.5s;
+ }
+ 
+ .buttonformore:hover::before {
+  width: 100%;
+ }
+ 
+ .buttonformore:hover {
+  color: white;
+ }
+ 
+ .buttonformore:active:before {
+  background: #b9b9b9;
+ }
