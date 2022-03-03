@@ -241,7 +241,8 @@ footer {
   padding-right: 9em;
 }
 .contact_image {
-  height: 35rem;
+  margin-top: 8rem;
+  height: 30rem;
   width: 30rem;
 }
 
@@ -270,8 +271,8 @@ footer {
   }
 
   .gambar2 {
-    width: 20rem;
-    height: 20rem;
+    width: 18rem;
+    height: 18rem;
   }
   .gambar3 {
     width: 20rem;
@@ -340,7 +341,7 @@ footer {
   }
   .btn_search {
     padding-top: 2rem;
-    padding-left: 2.5rem;
+    padding-left: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -549,12 +550,25 @@ footer {
   color: black;
   background-color: #6ebce4;
   border-radius: 1rem;
-  border: rgba(159, 178, 243, 0.8) 0.2rem solid;
+  border: rgba(106, 111, 129, 0.8) 0.2rem solid;
+  transition: all 0.4s ease-in;
+  box-shadow: 0.4rem 0.4rem 0.6rem rgba(72, 81, 112, 0.3);
+}
+.card2 {
+  color: white;
+  background-color: #34524e;
+  border-radius: 1rem;
+  border: rgba(106, 111, 129, 0.8) 0.2rem solid;
   transition: all 0.4s ease-in;
   box-shadow: 0.4rem 0.4rem 0.6rem rgba(72, 81, 112, 0.3);
 }
 
 .card1:hover {
+  transform: translateY(-0.2rem);
+  border: #fe9e88 0.2em solid;
+  border-radius: 2.5rem 0 2.5rem 0;
+}
+.card2:hover {
   transform: translateY(-0.2rem);
   border: #fe9e88 0.2em solid;
   border-radius: 2.5rem 0 2.5rem 0;
@@ -579,8 +593,8 @@ body {
   margin-bottom: 50px;
 }
 .profile img {
-  width: 150px;
-  height: 150px;
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
 }
 .cardteam {
@@ -600,7 +614,7 @@ body {
 
   width: 140px;
   height: 45px;
-  font-size: 23px;
+  font-size: 20px;
   cursor: pointer;
   border: none;
   outline: none;
