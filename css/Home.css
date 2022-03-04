@@ -9,6 +9,7 @@ a {
 
 .khusus1 {
   font-family: 'Ubuntu', sans-serif;
+
 }
 .container1 {
   background-image: url('../src/world\ map.png'); /* Pakai BGJar.com license free */
@@ -555,8 +556,8 @@ footer {
   box-shadow: 0.4rem 0.4rem 0.6rem rgba(72, 81, 112, 0.3);
 }
 .card2 {
-  color: white;
-  background-color: #34524e;
+  color: black;
+  background-color: #6ebce4;
   border-radius: 1rem;
   border: rgba(106, 111, 129, 0.8) 0.2rem solid;
   transition: all 0.4s ease-in;
