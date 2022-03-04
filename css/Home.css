@@ -57,33 +57,10 @@ a {
   font-size: 4em;
   font-family: 'Ubuntu', sans-serif;
 }
-
-
-/* hover image */
-.gmbr0 {
-  position: relative;
+.gambar2 {
   width: 550px;
   height: 600px;
-  top: 0;
 }
-
-.gmbr1{
-  margin-top: 100px;
-}
-
-.gmbr0 img{
-  position: absolute;
-  left: 0;
-  width: 100%;
-  transition: opacity 0.5s ease-in-out;
-}
-
-.gmbr0 .gambar2:hover{
-  opacity: 0;
-}
-
-/* end */
-
 .gambar3 {
   width: 450px;
   height: 550px;
@@ -266,7 +243,7 @@ footer {
 .contact_image {
   margin-top: 8rem;
   height: 30rem;
-  /* width: 30rem; */
+  width: 30rem;
 }
 
 @media only screen and (min-width: 319px) and (max-width: 767px) {
