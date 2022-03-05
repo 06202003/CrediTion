@@ -18,6 +18,7 @@
 
 <h1>PAGE 1</h1>
  - Navbar ketika di scroll akan memunculkan beberapa menu disebelah kanan.
+ <br/>
  - Button our services ketika diklik akan menuju ke page our services.
 
 <h1>PAGE 2</h1>
@@ -25,22 +26,29 @@
 
 <h1>PAGE 3</h1>
 - Grafik Bar akan muncul dengan animated on screen menampilkan grafik menggunakan chart.js
+<br/>
 - Ketika grafik di hover, akan muncul keterangan setiap bar dan berubah warna
 
 <h1>PAGE 3</h1>
 - Menampilkan tips mendapatkan informasi terpercaya
+<br/>
 - Animasi menggunakan animated on screen
 
 <h1>PAGE 4</h1>
 - Terdapat beberapa layanan di section "our services"
+<br/>
 - Bagian"Anti-Hoax Search Engine" dan "Search Trusted Websites" belum diberikan fungsi hanya UI
+<br/>
 - Bagian "Kirim" terdapat pop up message ketika button diklik.
 
 <h1>PAGE 5</h1>
 - Background menggunakan vanta.js yang ketika di hover dapat bergerak mengikuti kursor
+<br/>
 - Di dalam card terdapat button 'About Me' dapat di klik memunculkan deskripsi singkat tentang kami 
 
 <h1>PAGE 6</h1>
 - Section "Contact Us" ketika form diisi semua data form akan terkirim ke kami
+<br/>
 - Bagian "Kirim" terdapat pop up message ketika button diklik.
+<br/>
 - Terdapat Footer yang menerangkan tentang kontak kami dan button social media
