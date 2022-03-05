@@ -90,6 +90,20 @@ src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
+                  <li class="nav-item dropdown" id="hilang4">
+                    <a class="nav-link dropdown-toggle" style="color: white;font-size: 1em; font-family: 'Comfortaa', cursive;" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Education
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#FoF">Fact or Fake</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#Kred">Seberapa penting Kredibilitas?</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#Graph">Grafik Berita Bohong</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#tips">Tips & Trick</a></li>
+                    </ul>
+                  </li>
                   <li class="nav-item" id="hilang">
                     <a class="nav-link fs-6" href="#feature" style="color: white;font-size: 1em; font-family: 'Comfortaa', cursive;" > Services </a>
                   </li>
@@ -176,7 +190,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
     <svg class="wave-top" width="100"  viewBox="0 0 1200 250" style="background-color: #25292e;">
       <path fill-rule="evenodd" clip-rule="evenodd" d="M0 108.306L50 114.323C100 120.34 200 132.374 300 168.476C400 204.578 500 264.749 600 246.698C700 228.647 800 132.374 900 108.306C1000 84.2382 1100 132.374 1150 156.442L1200 180.51V-8.5451e-06H1150C1100 -8.5451e-06 1000 -8.5451e-06 900 -8.5451e-06C800 -8.5451e-06 700 -8.5451e-06 600 -8.5451e-06C500 -8.5451e-06 400 -8.5451e-06 300 -8.5451e-06C200 -8.5451e-06 100 -8.5451e-06 50 -8.5451e-06H0V108.306Z" fill="black"/>
       </svg>
-
+      <span style="visibility: hidden;" id="FoF"></span>
     <!-- Sec2 -->
     <section class="con2" id="lanjut">
       <div class="container padd2" >
@@ -192,6 +206,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
           </div><hr>
         </div>
       </section>
+      <span style="visibility: hidden;" id="Kred"></span>
     <!-- End Sec2 -->
 
     <!-- Sec3 -->
@@ -213,6 +228,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
     <svg class="wave-top"width="100" viewBox="0 0 1200 250">
       <path fill-rule="evenodd" clip-rule="evenodd" d="M0 108.306L50 114.323C100 120.34 200 132.374 300 168.476C400 204.578 500 264.749 600 246.698C700 228.647 800 132.374 900 108.306C1000 84.2382 1100 132.374 1150 156.442L1200 180.51V-8.5451e-06H1150C1100 -8.5451e-06 1000 -8.5451e-06 900 -8.5451e-06C800 -8.5451e-06 700 -8.5451e-06 600 -8.5451e-06C500 -8.5451e-06 400 -8.5451e-06 300 -8.5451e-06C200 -8.5451e-06 100 -8.5451e-06 50 -8.5451e-06H0V108.306Z" fill="#25292e"/>
       </svg>
+      <span style="visibility: hidden;" id="Graph"></span>
 
       <!-- Sec4 -->
       <section class="con4 mb-5">
@@ -240,7 +256,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
       <!-- End Sec4 -->
 
       <!-- Pembatas -->
-      <section style="background-color: rgba(0, 0, 0, 1);" class="py-2">
+      <section id="tips" style="background-color: rgba(0, 0, 0, 1);" class="py-3">
         <div style="text-align: center;">
             <h1 class="navbar-brand my-auto"  style="font-family: 'Comfortaa', cursive;font-size: 40px;"><img src="src/1.png" width="60" >CrediTion</h1>
          </div>
@@ -250,9 +266,9 @@ src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
       <!-- Sec 5 -->
       <section style="background-color: #1b2b3a;margin-top: -1rem;">
         <div class="container">
-          <h1 class="text-center pt-5 pb-5 judulgrafik" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="false" data-aos-mirror="true">Tips Mendapatkan Informasi Terpercaya di Internet</h1>
+          <h1 class="text-center pt-5 pb-5 judulgrafik" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="false" data-aos-mirror="true">Tips & Trick Mendapatkan Informasi Terpercaya di Internet</h1>
           <div class="row d-flex justify-content-center  mt-2 text-white rowtips ">
-            <div class="col-lg-3 col-md-6 col-xs-12 pb-3 margtips">
+            <div class="col-lg-3 col-md-6 col-xs-12 pb-3 margtips"  data-aos="fade-up" data-aos-duration="2000" data-aos-once="false" data-aos-mirror="true">
               <div class="card border-0" style="background-color:transparent;">
                 <img src="src/provoke.jpg" class="card-img-top fototips">
                 <h4 class="center pt-3">Hindari judul provokatif</h4>
@@ -261,7 +277,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-xs-12 pb-3 margtips">
+            <div class="col-lg-3 col-md-6 col-xs-12 pb-3 margtips"  data-aos="fade-up" data-aos-duration="2000" data-aos-once="false" data-aos-mirror="true">
               <div class="card border-0" style="background-color:transparent;">
                 <img src="src/SEO.jpg" class="card-img-top fototips">
                 <h4 class="center pt-3">Optimalkan kata kunci</h4>
@@ -270,7 +286,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-xs-12 pb-3 margtips">
+            <div class="col-lg-3 col-md-6 col-xs-12 pb-3 margtips"  data-aos="fade-up" data-aos-duration="2000" data-aos-once="false" data-aos-mirror="true">
               <div class="card border-0" style="background-color:transparent;">
                 <img src="src/situs1.jpg" class="card-img-top fototips">
                 <h4 class="center pt-3">Cermati alamat situs</h4>
@@ -281,7 +297,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
             </div>
           </div>
           <div class="row d-flex justify-content-center  mb-5 text-white rowtips">
-            <div class="col-lg-3 col-md-6 col-xs-12 pb-3 me-3">
+            <div class="col-lg-3 col-md-6 col-xs-12 pb-3 margtips" data-aos="fade-up" data-aos-duration="2000" data-aos-once="false" data-aos-mirror="true">
               <div class="card border-0" style="background-color:transparent;">
                 <img src="src/1.png" class="card-img-top fototips">
                 <h4 class="center pt-3">Periksa fakta</h4>
@@ -290,7 +306,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-xs-12 pb-3 margtips">
+            <div class="col-lg-3 col-md-6 col-xs-12 pb-3 margtips"  data-aos="fade-up" data-aos-duration="2000" data-aos-once="false" data-aos-mirror="true">
               <div class="card border-0" style="background-color:transparent;">
                 <img src="src/1.png" class="card-img-top fototips">
                 <h4 class="center pt-3">Cek keaslian foto</h4>
@@ -299,7 +315,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-xs-12 pb-3 margtips ">
+            <div class="col-lg-3 col-md-6 col-xs-12 pb-3 margtips " data-aos="fade-up" data-aos-duration="2000" data-aos-once="false" data-aos-mirror="true">
               <div class="card border-0" style="background-color:transparent;">
                 <img src="src/1.png" class="card-img-top fototips">
                 <h4 class="center pt-3">Ikuti forum anti-hoaks</h4>
@@ -560,7 +576,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
                       <textarea class="form-control khusus1" id="massages1" rows="3" required></textarea>
                     </div>
                     <button type="submit" class="btn my-1 " id="buttonsatu2">
-                      Submit
+                      Kirim
                     </button>
                     <!-- Modal -->
                     <script>
