@@ -3,13 +3,28 @@
   padding: 0;
 }
 
+.margtips {
+  margin-right: 3rem;
+}
+.scroll {
+  height: 150px;
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+.fototips {
+  border-radius: 50%;
+  width: 325px;
+  height: 325px;
+}
+
 a {
   text-decoration: none;
 }
 
 .khusus1 {
   font-family: 'Ubuntu', sans-serif;
-
 }
 .container1 {
   background-image: url('../src/world\ map.png'); /* Pakai BGJar.com license free */
@@ -70,7 +85,7 @@ a {
   padding-left: 100px;
 }
 .judulgrafik {
-  font-size: 3.5em;
+  font-size: 3em;
   font-family: 'Ubuntu', sans-serif;
 }
 .judul2 {
@@ -344,6 +359,15 @@ footer {
     padding-top: 2rem;
     padding-left: 0;
   }
+
+  .margtips {
+    margin-right: 0;
+  }
+  .fototips {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .ket_2 {
@@ -437,8 +461,31 @@ footer {
     height: 25rem;
     width: 20rem;
   }
+  .rowtips {
+    margin-left: 3rem;
+  }
+  .margtips {
+    margin-right: 0;
+  }
+  .fototips {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+  }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .margtips {
+    margin-right: 3rem;
+  }
+  .center {
+    text-align: center;
+  }
+  .fototips {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+  }
+
   .contact_image {
     margin-top: 2rem;
     height: 30rem;
