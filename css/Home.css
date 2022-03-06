@@ -12,9 +12,35 @@ body {
   color: white;
   background-image: url(../src/Screenshot_2.png); /* Pakai BGJar.com license free */
 }
-
+#flexSwitchCheckDefault {
+  background-color: #25292e;
+  border-color: white;
+  color: white;
+}
+#sec5 {
+  background-color: #25292e;
+  margin-top: -1rem;
+}
+#lanjut1 {
+  background-color: #25292e;
+}
+#judul {
+  color: #9fb2f3;
+}
+#judul1 {
+  color: #9fb2f3;
+}
+#fill1 {
+  fill: #25292e;
+}
 .margtips {
   margin-right: 3rem;
+}
+#wv1 {
+  background-color: #25292e;
+}
+#secfitur {
+  background-color: #25292e;
 }
 .scroll {
   height: 150px;
@@ -233,6 +259,9 @@ footer {
 }
 
 #hilang1 {
+  visibility: hidden;
+}
+#hilang2 {
   visibility: hidden;
 }
 #hilang3 {
