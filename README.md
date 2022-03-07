@@ -19,6 +19,8 @@
 <h1>PAGE 1</h1>
  - Navbar ketika di scroll akan memunculkan beberapa menu disebelah kanan.
  <br/>
+ - Terdapat toggle untuk merubah tampilan background cerah atau gelap di samping navigasi halaman
+ <br/>
  - Button our services ketika diklik akan menuju ke page our services.
 
 <h1>PAGE 2</h1>
