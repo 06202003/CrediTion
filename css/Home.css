@@ -10,19 +10,23 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  background-image: url(../src/Screenshot_2.png); /* Pakai BGJar.com license free */
+  background-color: white;
+  background-image: url('../src/Screenshot_1.png'); /* Pakai BGJar.com license free */
+}
+#svg1 {
+  fill: #00254c;
 }
 #flexSwitchCheckDefault {
-  background-color: #25292e;
+  background-color: #3d437f;
   border-color: white;
   color: white;
 }
 #sec5 {
-  background-color: #25292e;
+  background-color: #3d437f;
   margin-top: -1rem;
 }
 #lanjut1 {
-  background-color: #25292e;
+  background-color: #3d437f;
 }
 #judul {
   color: #9fb2f3;
@@ -31,16 +35,16 @@ body {
   color: #9fb2f3;
 }
 #fill1 {
-  fill: #25292e;
+  fill: #3d437f;
 }
 .margtips {
   margin-right: 3rem;
 }
 #wv1 {
-  background-color: #25292e;
+  background-color: #3d437f;
 }
 #secfitur {
-  background-color: #25292e;
+  background-color: #3d437f;
 }
 #maps {
   border: 0;
@@ -71,7 +75,7 @@ a {
   font-family: 'Ubuntu', sans-serif;
 }
 .container1 {
-  background-image: url('../src/world\ map.png'); /* Pakai BGJar.com license free */
+  background-image: url('../src/world\ map1.jpg'); /* Pakai BGJar.com license free */
   height: 700px;
   /* background-attachment: fixed; */
   background-position: center;
@@ -103,7 +107,7 @@ a {
   border: 0;
 }
 .con2 {
-  background-color: #25292e;
+  background-color: #3d437f;
   color: white;
 }
 .khusus4 {
