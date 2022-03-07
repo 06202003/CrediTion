@@ -42,6 +42,14 @@ body {
 #secfitur {
   background-color: #25292e;
 }
+#maps {
+  border: 0;
+  width: 450px;
+  height: 450px;
+}
+.formcontact {
+  margin-left: -1.5rem;
+}
 .scroll {
   height: 150px;
   text-align: center;
@@ -391,7 +399,7 @@ footer {
     margin-left: 4rem;
   }
   .kontak_tinggi {
-    height: 700px;
+    height: 1000px;
   }
   .ket_2 {
     line-height: 2;
@@ -409,6 +417,16 @@ footer {
     margin: 0 auto;
     width: 250px;
     height: 250px;
+  }
+  #maps {
+    border: 0;
+    width: 250px;
+    height: 250px;
+    margin-left: 3.25rem;
+    padding-bottom: 2rem;
+  }
+  .formcontact {
+    margin-left: 0rem;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -513,6 +531,14 @@ footer {
     margin: 0 auto;
     width: 250px;
     height: 250px;
+  }
+  #maps {
+    border: 0;
+    width: 250px;
+    height: 250px;
+  }
+  .formcontact {
+    margin-left: 0rem;
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
@@ -631,6 +657,15 @@ footer {
   }
   .pad {
     padding-left: 1rem;
+  }
+  #maps {
+    border: 0;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 2rem;
+  }
+  .formcontact {
+    margin-left: 0rem;
   }
 }
 
