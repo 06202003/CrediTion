@@ -32,7 +32,7 @@ function a() {
     document.getElementById('svg1').style.fill = '#00254c';
     document.getElementById('lanjut1').style.color = 'white';
     document.getElementById('lanjut1').style.backgroundColor = '#3d437f';
-    document.getElementById('judul1').style.color = 'white';
+    document.getElementById('judul').style.color = 'white';
     document.getElementById('judul1').style.color = 'white';
     document.getElementById('fill1').style.fill = '#3d437f';
     document.getElementById('sec5').style.backgroundColor = '#3d437f';
@@ -56,8 +56,8 @@ function a() {
     document.getElementById('svg1').style.fill = 'black';
     document.getElementById('lanjut1').style.color = 'white';
     document.getElementById('lanjut1').style.backgroundColor = '#25292e';
-    document.getElementById('judul').style.color = 'white';
-    document.getElementById('judul1').style.color = 'white';
+    document.getElementById('judul').style.color = '#9fb2f3';
+    document.getElementById('judul1').style.color = '#9fb2f3';
     document.getElementById('fill1').style.fill = '#25292e';
     document.getElementById('sec5').style.backgroundColor = '#25292e';
     document.getElementById('sec5').style.color = 'white';
