@@ -13,6 +13,10 @@ body {
   background-color: white;
   background-image: url('../src/Screenshot_1.png'); /* Pakai BGJar.com license free */
 }
+.judulfact {
+  font-size: 1.7em;
+  font-family: 'Ubuntu', sans-serif;
+}
 #svg1 {
   fill: #00254c;
 }
@@ -547,6 +551,9 @@ footer {
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .judulfact {
+    font-size: 1.5em;
+  }
   .margtips {
     margin-right: 3rem;
   }
@@ -578,7 +585,7 @@ footer {
     height: 700px;
   }
   .khusus1 {
-    font-size: 0.9em;
+    font-size: 1em;
     font-family: 'Ubuntu', sans-serif;
   }
   .khusus2 {
