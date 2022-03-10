@@ -1,4 +1,5 @@
 var nav = document.querySelector('nav');
+var slider = document.querySelector('.slider');
 window.addEventListener('scroll', function () {
   if (window.pageYOffset > 50) {
     nav.classList.add('warnaheader', 'shadow');
@@ -7,6 +8,7 @@ window.addEventListener('scroll', function () {
     document.getElementById('hilang3').style.visibility = 'visible';
     document.getElementById('hilang4').style.visibility = 'visible';
     document.getElementById('hilang2').style.visibility = 'visible';
+    slider.style.visibility = 'visible';
   } else {
     nav.classList.remove('warnaheader', 'shadow');
     document.getElementById('hilang').style.visibility = ' hidden';
@@ -14,6 +16,7 @@ window.addEventListener('scroll', function () {
     document.getElementById('hilang3').style.visibility = 'hidden';
     document.getElementById('hilang4').style.visibility = 'hidden';
     document.getElementById('hilang2').style.visibility = 'hidden';
+    slider.style.visibility = 'hidden';
   }
 });
 
@@ -27,20 +30,17 @@ function a() {
     document.body.style.backgroundImage = "url('../src/Screenshot_1.png')";
     document.getElementById('flexSwitchCheckDefault').style.backgroundColor = '#3d437f';
     document.getElementById('lanjut').style.color = 'white';
-    document.getElementById('lanjut').style.backgroundColor = '#133764';
-    document.getElementById('wv1').style.backgroundColor = '#133764';
+    document.getElementById('lanjut').style.backgroundColor = '#3d437f';
+    document.getElementById('wv1').style.backgroundColor = '#3d437f';
     document.getElementById('svg1').style.fill = '#00254c';
     document.getElementById('lanjut1').style.color = 'white';
-    document.getElementById('lanjut1').style.backgroundColor = '#133764';
-    document.getElementById('warnajudul1').style.color = 'white';
-    document.getElementById('warnajudul2').style.color = 'white';
-    document.getElementById('warnajudul3').style.color = 'white';
+    document.getElementById('lanjut1').style.backgroundColor = '#3d437f';
     document.getElementById('judul').style.color = 'white';
     document.getElementById('judul1').style.color = 'white';
-    document.getElementById('fill1').style.fill = '#133764';
-    document.getElementById('sec5').style.backgroundColor = '#00254c';
+    document.getElementById('fill1').style.fill = '#3d437f';
+    document.getElementById('sec5').style.backgroundColor = '#3d437f';
     document.getElementById('sec5').style.color = 'white';
-    document.getElementById('secfitur').style.backgroundColor = '#0e2a47';
+    document.getElementById('secfitur').style.backgroundColor = '#3d437f';
     document.getElementById('secfitur').style.color = 'white';
     document.getElementById('contact_foot').style.backgroundColor = '#3d437f';
     document.getElementById('contact_foot').style.color = 'white';
@@ -59,9 +59,6 @@ function a() {
     document.getElementById('svg1').style.fill = 'black';
     document.getElementById('lanjut1').style.color = 'white';
     document.getElementById('lanjut1').style.backgroundColor = '#25292e';
-    document.getElementById('warnajudul1').style.color = '#9fb2f3';
-    document.getElementById('warnajudul2').style.color = '#9fb2f3';
-    document.getElementById('warnajudul3').style.color = '#9fb2f3';
     document.getElementById('judul').style.color = '#9fb2f3';
     document.getElementById('judul1').style.color = '#9fb2f3';
     document.getElementById('fill1').style.fill = '#25292e';
