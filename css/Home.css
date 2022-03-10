@@ -26,11 +26,11 @@ body {
   color: white;
 }
 #sec5 {
-  background-color: #00254c;
+  background-color: #3d437f;
   margin-top: -1rem;
 }
 #lanjut1 {
-  background-color: #133764;
+  background-color: #3d437f;
 }
 #judul {
   color: white;
@@ -39,17 +39,17 @@ body {
   color: white;
 }
 #fill1 {
-  fill: #133764;
+  fill: #3d437f;
 }
 .margtips {
   margin-right: 3rem;
 }
 #wv1 {
-  background-color: #133764;
+  background-color: #3d437f;
   margin-top: -1rem;
 }
 #secfitur {
-  background-color: #0e2a47;
+  background-color: #3d437f;
 }
 #maps {
   border: 0;
@@ -112,7 +112,7 @@ a {
   border: 0;
 }
 .con2 {
-  background-color: #133764;
+  background-color: #3d437f;
   color: white;
 }
 .khusus4 {
@@ -692,8 +692,8 @@ footer {
   box-shadow: 0.4rem 0.4rem 0.6rem rgba(72, 81, 112, 0.3);
 }
 .card2 {
-  color: white;
-  background-color: #25292e;
+  color: black;
+  background-color: #6ebce4;
   border-radius: 1rem;
   border: rgba(106, 111, 129, 0.8) 0.2rem solid;
   transition: all 0.4s ease-in;
@@ -800,7 +800,7 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #f4f4f5;
+  background-color: #17416d;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 30px;
