@@ -17,6 +17,7 @@ body {
   font-size: 1.7em;
   font-family: 'Ubuntu', sans-serif;
 }
+
 #svg1 {
   fill: #00254c;
 }
@@ -585,7 +586,11 @@ footer {
     height: 700px;
   }
   .khusus1 {
-    font-size: 1em;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .tiga {
+    font-size: 12px;
     font-family: 'Ubuntu', sans-serif;
   }
   .khusus2 {
@@ -602,8 +607,8 @@ footer {
   }
 
   .gambar1 {
-    width: 30rem;
-    height: 18rem;
+    width: 500px;
+    height: 300px;
   }
 
   .gambar2 {
@@ -654,15 +659,15 @@ footer {
     font-family: 'Ubuntu', sans-serif;
   }
   .judulatas {
-    font-size: 2em;
+    font-size: 2.5em;
     font-family: 'Ubuntu', sans-serif;
   }
   .ket_atas {
-    font-size: 1.2em;
+    font-size: 0.99rem;
   }
   .ket_1 {
     line-height: 1.5;
-    font-size: 1.2em;
+    font-size: 15px;
   }
   .foot_contact {
     font-size: 0.85rem;
