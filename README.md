@@ -16,19 +16,11 @@
       alt="javascript" width="40" height="40" /> 
 </p>
 
-# CrediTion
 
-Languages and Tools:
-HTML
-CSS
-Javascript --> termasuk animasi anime.js, vanta.js, dan chart.js dengan lisensi gratis
-Bootstrap5
-
-Gambar diambil melalui freepik.com dengan lisensi gratis (mencantumkan link freepik pada gambar).
-GIF menggunakan dari giphy.com dengan lisensi gratis
-Background PAGE1 menggunakan gambar dari BGJar.com dengan lisensi gratis
-Background PAGE6 menggunakan vanta.js dengan lisensi gratis
-
+- Gambar diambil melalui freepik.com dengan lisensi gratis (mencantumkan link freepik pada gambar).
+- GIF menggunakan dari giphy.com dengan lisensi gratis
+- Background PAGE1 menggunakan gambar dari BGJar.com dengan lisensi gratis
+- Background PAGE6 menggunakan vanta.js dengan lisensi gratis
 
 Penjelasan fitur Website:
 <br/>
