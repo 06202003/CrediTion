@@ -66,14 +66,22 @@ Footer
 
 Sumber Artikel :
     1. https://kominfo.go.id/content/detail/8949/ini-cara-mengatasi-berita-hoax-di-dunia-maya/0/sorotan_media
+    <br/>
     2. https://tirto.id/hoaks-dan-bahaya-rendahnya-kepercayaan-terhadap-media-cKAx
+    <br/>
     3. https://kumparan.com/kumparantech/86-pengguna-internet-dunia-tertipu-hoaks-kebanyakan-dari-facebook-1rHSD4a9P8p
+    <br/>
     4. https://kominfo.go.id/content/detail/12008/ada-800000-situs-penyebar-hoax-di-indonesia/0/sorotan_media
+    <br/>
     5. https://kominfo.go.id/index.php/content/detail/3415/Kominfo+%3A+Pengguna+Internet+di+Indonesia+63+Juta+Orang/0/berita_satker#:~:text=Jakarta%2CKominfo%20%E2%80%93%20Kementerian%20Komunikasi%20dan,internet%20untuk%20mengakses%20jejaring%20sosial.
+    <br/>
     6. https://www.statista.com/chart/18343/share-concerned-about-what-is-real-and-fake-on-the-internet/
 
 Sumber Gambar/Animasi :
     1. freepik.com
+    <br/>
     2. giphy.com
+    <br/>
     3. vantajs.com
+    <br/>
     4. bgjar.com
