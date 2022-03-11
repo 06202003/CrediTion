@@ -655,7 +655,7 @@ footer {
   }
   .judulatas {
     font-size: 2em;
-    font-family: 'Courier Prime', monospace;
+    font-family: 'Ubuntu', sans-serif;
   }
   .ket_atas {
     font-size: 1.2em;
@@ -800,7 +800,7 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #f4f4f5;
+  background-color: #133764;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 30px;
