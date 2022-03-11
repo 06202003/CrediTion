@@ -31,6 +31,7 @@ Background PAGE6 menggunakan vanta.js dengan lisensi gratis
 
 
 Penjelasan fitur Website:
+<br/>
 PAGE 1
  - Navbar ketika di scroll akan memunculkan beberapa menu disebelah kanan.
  - Ketika tulisan CrediTion diklik akan kembali ke page 1.
