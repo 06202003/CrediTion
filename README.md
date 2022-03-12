@@ -58,6 +58,7 @@ Footer
 - Terdapat bagian media sosial yang bersifat button yang hanya link ke websitenya saja.
 
 Sumber Artikel :
+<br/>
     1. https://kominfo.go.id/content/detail/8949/ini-cara-mengatasi-berita-hoax-di-dunia-maya/0/sorotan_media
     <br/>
     2. https://tirto.id/hoaks-dan-bahaya-rendahnya-kepercayaan-terhadap-media-cKAx
@@ -71,6 +72,7 @@ Sumber Artikel :
     6. https://www.statista.com/chart/18343/share-concerned-about-what-is-real-and-fake-on-the-internet/
 
 Sumber Gambar/Animasi :
+    <br/>
     1. freepik.com
     <br/>
     2. giphy.com
