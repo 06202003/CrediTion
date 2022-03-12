@@ -29,6 +29,7 @@ PAGE 1
  - Ketika tulisan CrediTion diklik akan kembali ke page 1.
  - Terdapat toggle untuk merubah tampilan background cerah atau gelap di samping navigasi halaman.
  - Button our services ketika diklik akan menuju ke page our services.
+ - Tiga card di bawah ketika dihover, border radius berubah bentuk dan warna
 
 PAGE 2
 - Terdapat animated on screen pada tulisan edukasi.
