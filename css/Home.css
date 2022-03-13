@@ -438,12 +438,18 @@ footer {
   .formcontact {
     margin-left: 0rem;
   }
+  .middle {
+    margin: 0 auto;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .ket_2 {
     line-height: 2;
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+  .middle {
+    margin: 0 auto;
   }
   p {
     text-align: left;
