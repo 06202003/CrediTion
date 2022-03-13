@@ -444,12 +444,15 @@ src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
 
                     <!-- Modal -->
                     <script>
+                      const form1 = document.getElementById('myForm');
                       $('#myForm').on('submit', function(e) {
                       e.preventDefault();
                       
                       if ($('#myCheck').is(':checked')) {
                         $('#myModal').modal('show');
+                      
                       }
+                      form1.reset();
                     });
                     </script>
                 </div>
@@ -602,10 +605,11 @@ src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
                     </button>
                     <!-- Modal -->
                     <script>
+                      const form = document.getElementById('myForm2');
                       $('#myForm2').on('submit', function(e) {
                         e.preventDefault();
                         $('#modal3').modal('show');
-                      
+                        form.reset();
                       
                     });
                     </script>
