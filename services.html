@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/4.4.7/css/fileinput.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="dist/bootstrap.fd.css" rel="stylesheet">
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,6 +39,7 @@
     <script src="script/anime.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
     <title>CrediTion</title>
+
   </head>
   <body>
       <!-- Navbar -->
@@ -142,19 +145,22 @@
   
                     <form method="post" action="" data-toggle="modal" id="myForm">
                     <div class="mb-3">
-                      <label for="validationDefault01" class="form-label khusus1">Nama Website</label>
+                      <label for="validationDefault01" class="form-label khusus1">Tema Konten</label>
                       <input type="text" class="form-control khusus1" id="validationDefault01" placeholder="Masukkan nama website" required>
                     </div>
                     <div class="mb-3">
                       <label for="validationDefault02" class="form-label khusus1">Tautan Website</label>
                       <input type="url" class="form-control khusus1" id="validationDefault02" placeholder="Masukkan tautan website" required>
-                      <div id="linkhelp" class="form-text text-dark"> &nbsp;Mohon salin tautan website anda</div>
+                      <div id="linkhelp" class="form-text text-white" style="font-family: 'Ubuntu', sans-serif;"> &nbsp;Mohon salin tautan website anda</div>
                     </div>
-                    <div class="custom-file mb-3">
-                      <label class="custom-file-label khusus1" for="customFile">Bukti Foto</label>
-                      <br>
-                      <input type="file" class="custom-file-input khusus1" id="customFile" accept="image/png, image/gif, image/jpeg">
-                    </div>
+                    <label for="validationDefault02" class="form-label khusus1">Bukti Konten</label>
+                    <div >
+                        <input class="form-control khusus1" type="file" id="masuk" onchange="preview()">
+                        <img id="frame" src="" class="img-fluid " />
+                        <span id="wakwaw" style="visibility: hidden;">
+                            <a class="btn btn-outline-light khusus1" style="font-size:16px; margin-left: 1rem;" onclick="clearImage()" >Hapus Gambar</a>
+                        </span>
+                      </div>
                     <div class="mb-3">
                       <label for="exampleFormControlTextarea1" class="form-label khusus1">
                         Bukti atau Alasan</label>
@@ -170,6 +176,21 @@
   
                       <!-- Modal -->
                       <script>
+                          function preview() {
+                                  frame.src = URL.createObjectURL(event.target.files[0]);
+                                  document.getElementById("frame").style.width="300px";
+                                  document.getElementById("frame").style.height="300px";
+                                  document.getElementById("frame").style.padding="40px";
+                                  document.getElementById("wakwaw").style.visibility="visible";
+                              }
+                              function clearImage() {
+                                  document.getElementById('masuk').value = null;
+                                  frame.src = "";
+                                  document.getElementById("frame").style.width="";
+                                  document.getElementById("frame").style.height="";
+                                  document.getElementById("frame").style.padding="";
+                                  document.getElementById("wakwaw").style.visibility="hidden";
+                              }
                         const form1 = document.getElementById('myForm');
                         $('#myForm').on('submit', function(e) {
                         e.preventDefault();
@@ -178,6 +199,7 @@
                           $('#myModal').modal('show');
                         
                         }
+                        
                         form1.reset();
                       });
                       </script>
@@ -260,11 +282,14 @@
          </footer>
       </section>
      <!-- End Footer -->
- 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/4.4.7/js/fileinput.js" type="text/javascript"></script>
      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
      <script src="script/Home.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" type="text/javascript"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/4.4.7/themes/fa/theme.js" type="text/javascript"></script>
+     <script src="dist/bootstrap.fd.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
      <script>
        AOS.init();
      </script>
