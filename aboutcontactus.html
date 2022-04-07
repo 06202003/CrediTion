@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Gideon+Roman&family=Redressed&family=Sora:wght@200&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet" />
+
+    <link rel="icon" type="image/png" sizes="16x16" href="src/favicon-16x16.png" />
+    <link rel="stylesheet" href="https://unpkg.com/cardbot@1.0.1/style.css" />
+    <link rel="stylesheet" href="css/Home.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/home.scss" />
+    <script src="script/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <title>CrediTion</title>
+  </head>
+  <body>
+            <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top " >
+        <div class="container credition">
+            <img src="src/1.png" class="mb-1" alt="" width="60" id="logoanimate" >
+          <a class="navbar-brand fs-3" href="index.html" data-aos="fade-down" data-aos-offset="500" data-aos-duration="1000" data-aos-delay="50" style="font-family: 'Comfortaa', cursive;"> CrediTion </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown" id="hilang4">
+                <a class="nav-link dropdown-toggle" style="color: white;font-size: 1em; font-family: 'Comfortaa', cursive;" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Knowledge
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="index.html#FactorFake" style="color: black; font-family: 'Comfortaa', cursive;">Fact or Fake</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="index.html#Kred" style="color: black; font-family: 'Comfortaa', cursive;">Seberapa penting Kredibilitas?</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="index.html#Graph" style="color: black; font-family: 'Comfortaa', cursive;">Grafik Berita Bohong</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="index.html#tips" style="color: black; font-family: 'Comfortaa', cursive;">Tips & Trick</a></li>
+                </ul>
+              </li>
+              <li class="nav-item" id="hilang">
+                <a class="nav-link fs-6" href="services.html" style="color: white;font-size: 1em; font-family: 'Comfortaa', cursive;" > Services </a>
+              </li>
+              <li class="nav-item" id="hilang3">
+                <a class="nav-link fs-6" href="#Team" style="color: white;font-size: 1em; font-family: 'Comfortaa', cursive;" > About Us </a>
+              </li>
+              <li class="nav-item" id="hilang1">
+                <a class="nav-link fs-6" href="#aboutus123" style="color: white;font-size: 1em; font-family: 'Comfortaa', cursive;" > Contact Us </a>
+              </li>
+              <li class="nav-item" id="hilang2" >
+                <label class="switch">
+                  <input type="checkbox" type="checkbox" role="switch" id="flexSwitchCheckDefault" onchange="a()">
+                  <span class="slider"></span>
+                </label>
+              </li>
+            </ul>
+        </div>
+      </div>
+  </nav>
+        <!-- End Navbar -->
+              <!-- Meet Our Team -->
+      <section id="Team">
+        <!-- About Us -->
+    <div class="pt-5">
+      <h1 class="text-center judulgrafik mt-3" > About Us</h1>
+      <hr style="height: 0.5rem; width: 10rem;background-color: white; margin: 0 auto;">
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 mx-auto">
+            <div class="card" style="background-color: #25292e;border-radius: 30px;">
+              <div class="card-body" style="color: white;">
+                <h5 class="khusus1"><span style="font-family: 'Comfortaa', cursive;color: whitesmoke; font-weight: bold;">CrediTion</span> adalah aplikasi berbasis website yang diciptakan untuk membantu masyarakat Indonesia dalam mencari informasi terpercaya dan melaporkan hoaks.</h5>
+                <br>
+                <h5 class="khusus1">Dengan <span style="font-family: 'Comfortaa', cursive;color: whitesmoke; font-weight: bold;">CrediTion</span>, diharapkan masyarakat Indonesia dapat peka terhadap informasi terpercaya dan berani melaporkan hoaks.</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End About Us  -->
+        <div class="container">
+        
+          <div class="row justify-content-center pb-5 mx-auto">
+            <div class="card cardteam col-lg-5 col-md-9 mt-5 mb-3">
+                <div class="card-content">
+                    <div class="card-body body-team p-0">
+                        <div class="profile"> <img src="src/david.jpg"> </div>
+                        <div class="card-title mt-4 fs-2"  style="font-family: 'EB Garamond', serif;"> Yehezkiel David Setiawan
+                          <h6 style="font-family: 'Ubuntu', sans-serif;padding-top: 0.5rem;">Maranatha Christian University</h6> 
+                        </div>
+                        <div class="card-subtitle">
+                            <p> <small class="text-muted" style="font-family: 'Ubuntu', sans-serif;"> Informatics Engineering 2<sup>nd</sup> Semester Student </small> </p>
+                        </div>
+                        <button type="button" class="btn btnteam fs-4"  style="font-family: 'EB Garamond', serif;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          About Me
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card  cardteam col-lg-5 col-md-9 mt-5 mb-3">
+                <div class="card-content">
+                    <div class="card-body body-team p-0">
+                        <div class="profile"> <img src="src/arthur.png"> </div>
+                        <div class="card-title mt-4 fs-2"  style="font-family: 'EB Garamond', serif;"> Cristianto Tri Arthurito
+                          <h6 style="font-family: 'Ubuntu', sans-serif;padding-top: 0.5rem;">Maranatha Christian University</h6> 
+                        </div>
+                        <div class="card-subtitle">
+                          <p> <small class="text-muted" style="font-family: 'Ubuntu', sans-serif;"> Informatics Engineering 2<sup>nd</sup> Semester Student </small> </p>
+                        </div>
+                        <button type="button" class="btn btnteam fs-4"  style="font-family: 'EB Garamond', serif;" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                          About Me
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+         
+            
+          </div>
+        </div>
+      </section>
+  <!-- Meet Our Team End -->
+   
+  <!-- Pembatas -->
+  <div id="aboutus123" style="visibility: hidden;"></div>
+  <section class="" style="background-color: rgba(0, 0, 0, 1);">
+    <div style="text-align: center;" >
+        <h1 class="navbar-brand my-auto"  style="font-family: 'Comfortaa', cursive;font-size: 40px;"><img src="src/1.png" width="70">CrediTion</h1>
+    </div>
+</section>
+<!-- Pembatas -->
+
+<!-- Awal Form -->
+<section id="contact_foot" >
+    <div class="container">
+        <div class="container  kontak_tinggi pt-2">
+          <h1 class="judulgrafik" style="font-size: 3.5em; text-align: center;" id="warnajudul3">Contact Us</h1>
+          <hr style="height: 0.5rem; width: 15rem;background-color: white;" class="mx-auto" >
+          <br>
+          <div class="row">
+            <div class="col-md-5 my-auto">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5174.051464690561!2d107.58256987064524!3d-6.886332700908788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6873a8cf5a7%3A0xf8f474dec4efb56!2sUniversitas%20Kristen%20Maranatha!5e0!3m2!1sen!2sid!4v1646653584926!5m2!1sen!2sid" id="maps" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="col-md-7 formcontact">
+                <div class="text-start ">
+                  <form id="myForm2">
+                    <div class="mb-3">
+                      <label for="Email" class="form-label khusus1">Alamat Email</label>
+                      <input type="email" class="form-control khusus1" id="email" required>
+                      <div id="emailHelp" class="form-text khusus1">Kami tidak akan menyebarkan email anda</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="Name" class="form-label khusus1">Nama Lengkap</label>
+                      <input type="text" class="form-control khusus1" id="Name" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="country" class="form-label khusus1">Negara</label>
+                      <select id="country" class="form-select khusus1" name="country" class="mb-3" required>
+                        <option value="">--- Pilih Negara ---</option>
+                        <option value="australia">Indonesia</option>
+                        <option value="canada">Malaysia</option>
+                        <option value="usa">Singapura</option>
+                        <option value="indonesia">Australia</option>
+                        <option value="overseas">Negara Lain</option>
+                      </select>
+                    </div>
+                    <div class="mb-3">
+                      <label for="massages1" class="form-label khusus1">Tulis Pesan</label>
+                      <textarea class="form-control khusus1" id="massages1" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn my-1 " id="buttonsatu2">
+                      Kirim
+                    </button>
+                    <!-- Modal -->
+                    <script>
+                      const form = document.getElementById('myForm2');
+                      $('#myForm2').on('submit', function(e) {
+                        e.preventDefault();
+                        $('#modal3').modal('show');
+                        form.reset();
+                      
+                    });
+                    </script>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content" style="color: black;text-align:center;background-color: #6ebce4; border-radius: 30px;">
+                  <div class="modal-body">
+                    
+                    <img src="src/thanks.gif" class="w-50" style="margin: 0 auto;margin-bottom: 1rem;">
+                    <h5>Pesan Anda telah diterima oleh sistem dan akan segera kami balas.</h5>
+                    <div class="text-end pe-2 pb-2">
+                      <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+      </section>
+      <!-- Akhir Form -->
+
+     <!-- Footer -->
+     <section>
+       <footer id="footer" class=" text-lg-start text-white" style="background-color: #25292e">
+              <!-- Pembatas -->
+                <section id="aboutus123" style="background-color: rgba(0, 0, 0, 1);" class="py-2">
+                  <div style="text-align: center;" class="">
+                      <h1 class="navbar-brand my-auto"  style="font-family: 'Comfortaa', cursive;font-size: 40px;"><img src="src/1.png" width="75">CrediTion</h1>
+                    </div>
+                  </section>
+              <!-- Pembatas -->
+          <div class="container pb-4 pe-4 ps-4  pb-0">
+          <section>
+            <div class="row">
+              <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h1 class=" mb-4 font-weight-bold"  style="font-family: 'Comfortaa', cursive;">
+                  CrediTion
+                </h1>
+                <h6 class="khusus1 ket_1">
+                  Credition adalah website yang memiliki layanan untuk memudahkan masyarakat untuk mencari informasi terpercaya dan melaporkan hoaks.
+                </h6>
+              </div>
+              <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h1 class=" mb-4 font-weight-bold "  style="font-family: 'Comfortaa', cursive;">Contact</h1>
+                <h6 class="foot_contact khusus1"><i class="fas fa-home me-3"></i>Jl. Surya Sumantri No.65, Bandung</h6>
+                <h6 class="foot_contact khusus1"><i class="fas fa-envelope me-3"></i> CrediTion@gmail.com</h6>
+                <h6 class="foot_contact khusus1"><i class="fas fa-phone me-3"></i> +62 22-201 2186</h6>
+                <h6 class="foot_contact khusus1"><i class="fas fa-fax me-3"></i> +62 22-201 5154</h6>
+              </div>
+            </div>
+          </section>
+  
+          <hr class="my-3">
+  
+          <section class="p-3 pt-0">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-7 col-lg-8 text-center text-md-start">
+                <div class="p-3 fs-5 khusus1">
+                  © 2022 CrediTion
+                </div>
+              </div>
+  
+              <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end"> 
+                <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i
+                  ></a>
+                <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i
+                  ></a>
+                <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button" href="https://www.google.com/" target="_blank"><i class="fab fa-google"></i
+                  ></a>
+                <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i
+                  ></a>
+              </div>
+            </div>
+          </section>
+          </div>
+        </footer>
+     </section>
+    <!-- End Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script/Home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="script/three.r119.min.js"></script>
+    <script src="script/vanta.net.min.js"></script>
+    <script>
+    VANTA.NET({
+      el: "#Team",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      backgroundColor: 0x0,
+      maxDistance: 22.00,
+      spacing: 17.00
+    })
+    </script>
+  </body>
+</html>

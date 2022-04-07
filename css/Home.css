@@ -12,12 +12,15 @@ body {
   color: white;
   background-color: white;
   background-image: url('../src/Screenshot_1.png'); /* Pakai BGJar.com license free */
+  font-family: 'Ubuntu', sans-serif;
 }
 .judulfact {
   font-size: 1.7em;
   font-family: 'Ubuntu', sans-serif;
 }
-
+.container3 {
+  height: 1300px;
+}
 #svg1 {
   fill: #00254c;
 }
@@ -50,6 +53,7 @@ body {
   margin-top: -1rem;
 }
 #secfitur {
+  padding-top: 3rem;
   background-color: #0e2a47;
 }
 #maps {
@@ -323,9 +327,15 @@ footer {
 }
 
 @media only screen and (min-width: 319px) and (max-width: 767px) {
+  body {
+    font-family: 'Ubuntu', sans-serif;
+  }
   p {
     text-align: left;
     font-size: 0.8em;
+  }
+  .container3 {
+    height: 3200px;
   }
   .pertama {
     padding-top: 3rem;
@@ -391,7 +401,7 @@ footer {
   }
   .judulatas {
     font-size: 1.5em;
-    font-family: 'Courier Prime', monospace;
+    font-family: 'Ubuntu', sans-serif;
   }
   .ket_atas {
     font-size: 1em;
@@ -517,7 +527,7 @@ footer {
   }
   .judulatas {
     font-size: 1.5em;
-    font-family: 'Courier Prime', monospace;
+    font-family: 'Ubuntu', sans-serif;
   }
   .ket_atas {
     font-size: 1em;
