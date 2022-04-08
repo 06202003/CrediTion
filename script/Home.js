@@ -23,9 +23,10 @@ function a() {
   var x = document.body;
   var y = document.querySelectorAll('.judulfact');
   var z = document.querySelectorAll('.scroll');
-  var w = document.querySelector('.container1');
+  var w = document.querySelectorAll('.container1');
   if (x.style.backgroundColor == 'black') {
     document.body.style.backgroundColor = 'white';
+    document.getElementById('container1').style.backgroundImage = "url('../src/WM1.jpg')";
     document.body.style.backgroundImage = "url('../src/Screenshot_1.png')";
     document.getElementById('flexSwitchCheckDefault').style.backgroundColor = '#3d437f';
     document.getElementById('lanjut').style.color = 'white';
@@ -34,25 +35,25 @@ function a() {
     document.getElementById('svg1').style.fill = '#00254c';
     document.getElementById('lanjut1').style.color = 'white';
     document.getElementById('lanjut1').style.backgroundColor = '#133764';
+    document.getElementById('filling').style.fill = '#133764';
     document.getElementById('warnajudul1').style.color = 'white';
     document.getElementById('warnajudul2').style.color = 'white';
     document.getElementById('warnajudul3').style.color = 'white';
     document.getElementById('judul').style.color = 'white';
     document.getElementById('judul1').style.color = 'white';
-    document.getElementById('fill1').style.fill = '#133764';
     document.getElementById('sec5').style.backgroundColor = '#00254c';
     document.getElementById('sec5').style.color = 'white';
     document.getElementById('secfitur').style.backgroundColor = '#0e2a47';
     document.getElementById('secfitur').style.color = 'white';
     document.getElementById('contact_foot').style.backgroundColor = '#3d437f';
     document.getElementById('contact_foot').style.color = 'white';
-    w.style.backgroundImage = "url('../src/world map1.jpg')";
     for (let i = 0; i < y.length; i++) {
       y[i].style.color = 'white';
       z[i].style.color = 'white';
     }
   } else {
     document.body.style.backgroundColor = 'black';
+    document.getElementById('container1').style.backgroundImage = "url('../src/WM.jpg')";
     document.body.style.backgroundImage = "url('../src/Screenshot_2.png')";
     document.getElementById('flexSwitchCheckDefault').style.backgroundColor = '#25292e';
     document.getElementById('lanjut').style.color = 'white';
@@ -61,19 +62,18 @@ function a() {
     document.getElementById('svg1').style.fill = 'black';
     document.getElementById('lanjut1').style.color = 'white';
     document.getElementById('lanjut1').style.backgroundColor = '#25292e';
+    document.getElementById('filling').style.fill = '#25292e';
     document.getElementById('warnajudul1').style.color = '#9fb2f3';
     document.getElementById('warnajudul2').style.color = '#9fb2f3';
     document.getElementById('warnajudul3').style.color = '#9fb2f3';
     document.getElementById('judul').style.color = '#9fb2f3';
     document.getElementById('judul1').style.color = '#9fb2f3';
-    document.getElementById('fill1').style.fill = '#25292e';
     document.getElementById('sec5').style.backgroundColor = '#25292e';
     document.getElementById('sec5').style.color = 'white';
     document.getElementById('secfitur').style.backgroundColor = '#25292e';
     document.getElementById('secfitur').style.color = 'white';
     document.getElementById('contact_foot').style.backgroundColor = '#25292e';
     document.getElementById('contact_foot').style.color = 'white';
-    w.style.backgroundImage = "url('../src/world map.jpg')";
     for (let i = 0; i < y.length; i++) {
       y[i].style.color = 'white';
       z[i].style.color = 'white';

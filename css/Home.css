@@ -45,7 +45,7 @@ body {
 #judul1 {
   color: white;
 }
-#fill1 {
+#filling {
   fill: #133764;
 }
 .margtips {
@@ -87,7 +87,16 @@ a {
   font-family: 'Ubuntu', sans-serif;
 }
 .container1 {
-  background-image: url('../src/world\ map1.jpg'); /* Pakai BGJar.com license free */
+  background-image: url('../src/WM1.jpg'); /* Pakai BGJar.com license free */
+  height: 700px;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+#container1 {
+  background-image: url('../src/WM1.jpg'); /* Pakai BGJar.com license free */
   height: 700px;
   /* background-attachment: fixed; */
   background-position: center;
