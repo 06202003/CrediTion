@@ -177,19 +177,19 @@
             </div>
             <div class="col-md-7 formcontact">
                 <div class="text-start ">
-                  <form id="myForm2">
+                  <form id="myForm2" name="CrediTion">
                     <div class="mb-3">
                       <label for="Email" class="form-label khusus1">Alamat Email</label>
-                      <input type="email" class="form-control khusus1" id="email" required>
+                      <input type="email" class="form-control khusus1" id="email" name="Email" required>
                       <div id="emailHelp" class="form-text khusus1">Kami tidak akan menyebarkan email anda</div>
                     </div>
                     <div class="mb-3">
-                      <label for="Name" class="form-label khusus1">Nama Lengkap</label>
-                      <input type="text" class="form-control khusus1" id="Name" required>
+                      <label for="Name" class="form-label khusus1" >Nama Lengkap</label>
+                      <input type="text" class="form-control khusus1" id="Name" name="Nama" required>
                     </div>
                     <div class="mb-3">
                       <label for="country" class="form-label khusus1">Negara</label>
-                      <select id="country" class="form-select khusus1" name="country" class="mb-3" required>
+                      <select id="country" class="form-select khusus1" name="Country" class="mb-3" required>
                         <option value="">--- Pilih Negara ---</option>
                         <option value="australia">Indonesia</option>
                         <option value="canada">Malaysia</option>
@@ -200,20 +200,30 @@
                     </div>
                     <div class="mb-3">
                       <label for="massages1" class="form-label khusus1">Tulis Pesan</label>
-                      <textarea class="form-control khusus1" id="massages1" rows="3" required></textarea>
+                      <textarea class="form-control khusus1" id="massages1" name="Message" rows="3" required></textarea>
                     </div>
                     <button type="submit" class="btn my-1 " id="buttonsatu2">
                       Kirim
                     </button>
                     <!-- Modal -->
                     <script>
-                      const form = document.getElementById('myForm2');
+                      const form1 = document.getElementById('myForm2');
                       $('#myForm2').on('submit', function(e) {
                         e.preventDefault();
                         $('#modal3').modal('show');
-                        form.reset();
+                        
                       
                     });
+                     const scriptURL = 'https://script.google.com/macros/s/AKfycbyrAKtZzv6edeO6HgrHun-OwYExka_sPGdJ5MnCGwUO1DKY0jgVrvlR0L1aYNoG8b7s/exec'
+                      const form = document.forms['CrediTion']
+
+                      form.addEventListener('submit', e => {
+                        e.preventDefault()
+                        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                          .then(response => console.log('Success!', response))
+                          .catch(error => console.error('Error!', error.message))
+                          form1.reset();
+                      })
                     </script>
                   </form>
                 </div>
