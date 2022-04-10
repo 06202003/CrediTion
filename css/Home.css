@@ -359,6 +359,9 @@ footer {
   #container1 {
     height: 1200px;
   }
+  .container1 {
+    height: 1200px;
+  }
   .khusus1 {
     font-family: 'Ubuntu', sans-serif;
   }
@@ -489,6 +492,9 @@ footer {
   .container1 {
     height: 900px;
   }
+  #container1 {
+    height: 900px;
+  }
   .khusus1 {
     font-family: 'Ubuntu', sans-serif;
   }
@@ -616,6 +622,9 @@ footer {
     margin-top: 1rem;
   }
   .container1 {
+    height: 700px;
+  }
+  #container1 {
     height: 700px;
   }
   .khusus1 {
