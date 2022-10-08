@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masuk</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/login.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logohead.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Font Judul-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
+    <!-- Font Isi -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet" />
+  </head>
+  <body onload="showAlert()" id="login">
+    <!-- Login -->
+    <section class="my-auto" style="height:100vh;">
+      <div class="card login ">
+        <div class="row g-0">
+          <div class="col-md-5 border-end border-3">
+            <div class="row">
+              <div class="col-md-12 d-flex justify-content-center">
+                <img src="/images/logo.png" class="logo-login" alt="..." />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7 my-auto">
+            <div class="card-body">
+              <h1 class="card-title fw-bold text-center mb-5 pt-3" style="color: #f7d32c;">Login</h1>
+              <form id="login-form" action="index.html">
+                <div class="mb-4">
+                  <input type="text" class="form-control" id="userid" aria-describedby="inputGroupPrepend2" placeholder="Email" required />
+                </div>
+                <div class="input-group mb-4" id="password">
+                  <input class="form-control" type="password" id="pswrd" name="password" placeholder="Kata Sandi" required />
+                 
+                </div>
+                <div class="col-12 text-center mt-3">
+                  <input class="btn btn-lg button-login-outline" style="width: 100%;" type="submit" onclick="return acc()" value="Masuk"></input>
+                </div>
+                <div class="col-12  mt-2 mb-2 text-center">
+                <a type="button" class="daftarsekarang" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  <div class="d-flex justify-content-center">
+                    <h6 class="input-group" style="color: black;opacity: 50%;">Belum punya akun SawitCo? &nbsp;</h6>
+                    <h6 class="fw-bold link-login"> Daftar</h6>
+                  </div>
+                </a>
+                
+                </div>
+                <div class="col-md-12 d-flex justify-content-center mt-3" >
+                  <a class="mx-3" href="https://www.facebook.com/" target="_blank"><i class="icon-login fab fa-facebook-f fa-2x"></i></a>
+                  <a class="mx-3" href="https://www.twitter.com/" target="_blank"><i class="icon-login fab fa-twitter fa-2x" ></i></a>
+                  <a class="mx-3" href="https://www.google.com/" target="_blank"><i class="icon-login fab fa-google fa-2x" ></i></a>
+                  <a class="mx-3" href="https://www.instagram.com/" target="_blank"><i class="icon-login fab fa-instagram fa-2x" ></i></a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Login -->
+    
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold" id="staticBackdropLabel">Daftar Akun SawitCo</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Alamat Email" required>
+                <div id="emailHelp" class="form-text label-daftar">Gunakan alamat email aktif Anda</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Kata Sandi</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Tuliskan kata sandi" required>
+                <div id="emailHelp" class="form-text label-daftar">Kata sandi minimal 8 karakter dengan kombinasi huruf dan angka</div>
+              </div>
+              <div class="mb-3">
+                <label for="NamaLengkap" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="NamaLengkap" aria-describedby="emailHelp" placeholder="Nama Lengkap" required>
+                <div id="emailHelp" class="form-text label-daftar">Masukkan nama asli Anda</div>
+              </div>
+              <div class="mb-3">
+                <label for="Umur" class="form-label">Tanggal Lahir</label>
+                <input type="date" class="form-control" id="Umur" aria-describedby="emailHelp" required>
+              </div>
+              <div class="mb-3">
+                <label for="Alamat" class="form-label">Alamat</label>
+                <input type="text" class=" form-control " id="Alamat" name="Alamat" placeholder="Alamat rumah" required>
+                <div id="emailHelp" class="form-text label-daftar">Masukkan alamat rumah dengan lengkap</div>
+              </div>
+              <div class="mb-3">
+                <label for="Notelp" class="form-label">Nomor Telepon</label>
+                <input type="text" class="form-control" id="Notelp" aria-describedby="emailHelp" placeholder="Nomor Telepon" required>
+                <div id="emailHelp" class="form-text label-daftar">Masukkan nomor telepon yang dapat dihubungi</div>
+              </div>
+            
+              <button type="submit" class="btn pb-2 mb-3 button-login-outline" style="width: 100%;">Daftar</button>
+              <div class="mb-3">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-md-5"><hr></div>
+                  <div class="col-md-2 text-center my-auto">Atau</div>
+                  <div class="col-md-5"><hr></div>
+                </div>
+              </div>
+              <button class="btn button-login-outline" style="width: 100%;">
+                <div class="row d-flex justify-content-center" >
+                  <div class="col-md-1 my-auto">
+                    <i class="fa-brands fa-google my-auto"></i>
+                  </div>
+                  <div class="col-md-10 text-center">
+                    Masuk dengan Google
+                  </div>
+                  <div class="col-md-1 ">
+                  </div>
+                </div>
+              </button>
+              <div class="text-center mt-3">
+                Sudah punya akun?
+                        <a href="login.html" style="text-decoration: none;color:#c8aa22">Masuk sekarang</a>
+                </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="/script/index.js"></script>
+  </body>
+</html>

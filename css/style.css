@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+/* icon */
+.icon {
+  font-size: 2em;
+}
+
+/* img-bg */
+.img-bg {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/backgroundpalm.jpg);
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Navbar */
+
+/* .navbar-toggler-icon {
+  border-color: white;
+} */
+
+.nav-link,
+.nav-link:visited {
+  font-size: 1.3em;
+  color: white !important;
+}
+
+.nav-link:hover {
+  font-size: 1.3em;
+  color: white !important;
+}
+
+.nav-link::after {
+  display: block;
+  content: '';
+  border-bottom: 2px solid #f7d32c;
+  transform: scaleX(0);
+  transition: transform 500ms cubic-bezier(1, 0.19, 0, 0.86);
+  transform-origin: left;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+.link-border {
+  font-size: 1.3em !important;
+}
+
+.btn-outline-primary {
+  border-color: #f7d32c !important;
+  color: white !important;
+}
+.btn-outline-primary:hover {
+  background-color: #f7d32c !important;
+  color: black !important;
+}
+
+.ket-judul {
+  font-weight: 300 !important;
+}
+
+.text-uppercase {
+  letter-spacing: 10px;
+}
+
+.marg-judul {
+  padding: 5rem 0 5rem 0;
+}
+.marg-judul1 {
+  padding-top: 5rem;
+}
+
+.cardvalues {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  max-height: 1000px;
+}
+
+.btn-warning {
+  background-color: #f7d32c !important;
+}
+.size-btn-gallery {
+  width: 100%;
+  height: auto;
+  max-width: 10rem;
+  max-height: 5rem;
+}
+
+/* footer */
+.footer {
+  height: 85vh;
+}
+
+/* footer_top */
+.footer_top {
+  height: 50vh;
+  background-color: #d9d9d9;
+}
+
+.footer-topLogo {
+  width: 20rem;
+  height: auto;
+}
+
+/* footer_middle */
+.footer_middle {
+  background-color: #a1a0a0;
+  height: 20vh;
+}
+
+.footer-h1 {
+  font-weight: 300;
+}
+
+/* medsos-item */
+.medsos-item {
+  width: 50px;
+  height: 50px;
+  background-color: #4f4f4f;
+  border-radius: 25px;
+}
+
+.medsos-item:not(:last-child) {
+  margin-right: 1rem;
+}
+
+/* footer_bottom */
+.footer_bottom {
+  height: 10vh;
+}
+
+.footer_middle-txt {
+  font-size: 1.5em;
+  max-width: 30rem;
+  width: auto;
+  text-align: justify;
+  word-wrap: break-word;
+}
+
+.footer_bottom {
+  background-color: #626262;
+  font-size: 1.3em;
+}
